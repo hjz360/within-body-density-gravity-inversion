@@ -8,7 +8,7 @@ import os, sys, numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, '..', 'ood'))
 import evaluate_ood as E
 import torch; torch.set_num_threads(2)
-G = np.load(os.path.join(HERE, '..', 'nullspace', 'G.npy'))
+G = np.load(os.path.join(DATA, 'G.npy'))
 H = np.load(os.path.join(HERE, '..', 'ex400', 'dataset_11600_test400', 'density.npy')).astype(np.float64)
 C = np.load(os.path.join(HERE, '..', 'ex400', 'constant_reference_11600_test400', 'density.npy')).astype(np.float64)
 inp = np.stack([(C.reshape(400, -1) @ G.T).reshape(400, 1, 32, 32), (H.reshape(400, -1) @ G.T).reshape(400, 1, 32, 32)]).astype(np.float32)

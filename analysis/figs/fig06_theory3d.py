@@ -10,10 +10,10 @@ sys.path.insert(0, '.')
 import figstyle as S
 import matplotlib.pyplot as plt
 R = os.path.join(DATA, 'theory12') + '/'
-T = np.load(R + '理论真值与共同输入/density.npy').astype(float)
-PC = np.load(R + 'pred_C_20260727_noise0.npy'); PH = np.load(R + 'pred_H_20260727_noise0.npy')
-L2 = np.load(R + 'refined_r2_原始资料/arrays.npz')['l2']
-met = {(r['method'], r['seed'], int(r['case'])): r for r in csv.DictReader(open(R + 'theory_per_case.csv', encoding='utf-8')) if r['noise'] == '0.0'}
+T = np.load(R + 'truth_and_input/density.npy').astype(float)
+PC = np.load('../theory12/pred_C_20260727_noise0.npy'); PH = np.load('../theory12/pred_H_20260727_noise0.npy')
+L2 = np.load(R + 'l2_refined_r2/arrays.npz')['l2']
+met = {(r['method'], r['seed'], int(r['case'])): r for r in csv.DictReader(open('../theory12/theory_per_case.csv', encoding='utf-8')) if r['noise'] == '0.0'}
 CASES = [(0, '偏心单棱柱（常值）'), (3, '水平分离双棱柱（渐变）'), (11, '断错薄板（渐变）')]
 COLS = [('真值', None), (S.NAME_C, ('C', '20260727')), (S.NAME_H, ('H', '20260727')), ('非负深度加权L2', ('L2', '-'))]
 norm = plt.Normalize(0, S.DENS_MAX)

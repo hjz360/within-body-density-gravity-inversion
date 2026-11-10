@@ -14,13 +14,13 @@ import evaluate_ood as E                     # predict(), find_weights(), recove
 from internal_recovery_audit import recovery
 
 W = os.path.join(DATA, 'weights')
-G = np.load(os.path.join(HERE, '..', 'nullspace', 'G.npy'))
-T = np.load(os.path.join(HERE, '理论真值与共同输入', 'density.npy')).astype(float)
-L = np.load(os.path.join(HERE, '理论真值与共同输入', 'body_labels.npy'))
-D = np.load(os.path.join(HERE, '理论真值与共同输入', 'gravity.npy')).astype(np.float32)
-old = np.load(os.path.join(HERE, 'refined_r2_原始资料', 'arrays.npz'))
-ref = json.load(open(os.path.join(HERE, 'refined_r2_原始资料', 'metrics.json'), encoding='utf-8'))
-NAMES = [r['name'] for r in csv.DictReader(open(os.path.join(HERE, '案例顺序.csv'), encoding='utf-8-sig'))]
+G = np.load(os.path.join(DATA, 'G.npy'))
+T = np.load(os.path.join(DATA, 'theory12', 'truth_and_input', 'density.npy')).astype(float)
+L = np.load(os.path.join(DATA, 'theory12', 'truth_and_input', 'body_labels.npy'))
+D = np.load(os.path.join(DATA, 'theory12', 'truth_and_input', 'gravity.npy')).astype(np.float32)
+old = np.load(os.path.join(DATA, 'theory12', 'l2_refined_r2', 'arrays.npz'))
+ref = json.load(open(os.path.join(DATA, 'theory12', 'l2_refined_r2', 'metrics.json'), encoding='utf-8'))
+NAMES = [r['name'] for r in csv.DictReader(open(os.path.join(DATA, 'theory12', 'case_order.csv'), encoding='utf-8-sig'))]
 
 
 def metrics(p, i, d):

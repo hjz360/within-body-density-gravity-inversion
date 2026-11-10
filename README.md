@@ -21,7 +21,7 @@ Diagnostics include amplitude matching, data visibility *V* (SVD of the support-
 |---|---|
 | `original_pipeline/` | Scripts that generated the training libraries, trained the six networks and ran the first evaluations. They are kept **byte-identical** (see `PROVENANCE.md` for SHA-256 and the absolute Windows paths that must be edited before running). The network is `make_unet()` in `train_formal_20k.py`. |
 | `analysis/` | Analysis and figure scripts used for the manuscript revision. All data paths go through `paths.DATA`. |
-| `results/` | Per-case and summary outputs of the analyses (JSON/CSV), plus the protocols written before computation for the out-of-generator test (`results/ood/`, in Chinese, SHA-256 recorded in `冻结记录.json`) and the boundary-layer diagnostic (`results/boundary/`). |
+| `results/` | Per-case and summary outputs of the analyses (JSON/CSV), plus the protocols written before computation for the out-of-generator test (`results/ood/ood_protocol_v1_zh.md`, in Chinese; its SHA-256 is recorded in `ood_freeze_record.json`) and the boundary-layer diagnostic (`results/boundary/boundary_protocol_zh.md`). |
 | `tools/make_G_npy.py` | Converts the kernel `G.mat` to `G.npy` (mGal per g/cm³, 1024 × 16384). |
 
 ## Data
@@ -50,6 +50,8 @@ The 11 600-model training library is not included. It can be regenerated with `o
 - the San Nicolás gravity stations (190 points) and the saved IGI density array, from the data release of Li et al. (2026, *Computers & Geosciences* 208, 106082);
 - the geological outline digitised from Huang et al. (2021, *JGR Solid Earth*, Fig. 22);
 - the published section images used in Fig. 14.
+
+Place these files in `$VDNET_DATA/field/third_party/` with the names used in `analysis/figs/fig14_16_field.py`.
 
 ## Environment
 

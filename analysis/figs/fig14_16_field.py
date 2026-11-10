@@ -14,9 +14,9 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from PIL import Image
 P = os.path.join(DATA, 'field') + '/'
-M = {(s, a): np.load(P + f'01_六组实测预测/{s}_{a}.npy') for s in ('20260727', '20260728', '20260729') for a in 'CH'}
-IGI = np.load(P + '04_IGI保存模型/igi_density_zyx_16x36x43.npy')
-OUT = {k: np.loadtxt(P + f'03_地质轮廓/{k}_reference_polyline.csv', delimiter=',', skiprows=1)[:, 2:] for k in ('AA', 'BB')}
+M = {(s, a): np.load(P + f'network_predictions/{s}_{a}.npy') for s in ('20260727', '20260728', '20260729') for a in 'CH'}
+IGI = np.load(P + 'third_party/igi_density_zyx_16x36x43.npy')
+OUT = {k: np.loadtxt(P + f'third_party/{k}_reference_polyline.csv', delimiter=',', skiprows=1)[:, 2:] for k in ('AA', 'BB')}
 EXT = {'AA': [-2725, -575, 800, 0], 'BB': [-1175, 625, 800, 0]}
 SEC = {'AA': lambda m: m[:, 15, :], 'BB': lambda m: m[:, :, 20]}
 BROWN = '#8a4b1f'
@@ -63,8 +63,8 @@ cb.ax.tick_params(labelsize=6); cb.outline.set_linewidth(0.4)
 S.save(fig, 'fig16_field_ch')
 
 # ---------------- Fig.14 H + published raster excerpts
-h = Image.open(P + '05_文献原图/geological_outline/X3.jpg'); rr = Image.open(P + '05_文献原图/publication_comparison_v2/03_Rana2026_Fig16_原文参照.jpg')
-ii = Image.open(P + '05_文献原图/INR_Fig17_original.jpg')
+h = Image.open(P + 'third_party/Huang2021_X3.jpg'); rr = Image.open(P + 'third_party/Rana2026_Fig16.jpg')
+ii = Image.open(P + 'third_party/Li2026_Fig17.jpg')
 def crop_scaled(im, box, size): return im.crop(tuple(round(v * im.size[k % 2] / size[k % 2]) for k, v in enumerate(box)))
 hc = lambda b: crop_scaled(h, b, (2048, 846)); rc = lambda b: crop_scaled(rr, b, (1754, 1408))
 crops = {'AA': [hc((1115, 46, 1927, 349)), rc((68, 484, 488, 639)), rc((623, 484, 1043, 639)), ii.crop((959, 18, 1750, 311))],
