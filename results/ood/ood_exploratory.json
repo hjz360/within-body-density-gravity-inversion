@@ -1,0 +1,39 @@
+{
+ "note": "探索性，不作判据",
+ "20260727": {
+  "gain_vs_voxels_rho": 0.077,
+  "V_vs_voxels_rho": 0.008,
+  "share_H_better": 0.629
+ },
+ "20260728": {
+  "gain_vs_voxels_rho": -0.038,
+  "V_vs_voxels_rho": 0.008,
+  "share_H_better": 0.589
+ },
+ "20260729": {
+  "gain_vs_voxels_rho": 0.067,
+  "V_vs_voxels_rho": 0.008,
+  "share_H_better": 0.568
+ },
+ "between_law": {
+  "law_median_V": [
+   0.946,
+   0.232,
+   0.068,
+   0.518,
+   0.002,
+   0.084,
+   0.626
+  ],
+  "law_mean_reduction_pct": [
+   3.67,
+   2.36,
+   0.65,
+   2.26,
+   0.05,
+   0.11,
+   2.38
+  ],
+  "spearman_n7": 0.929
+ }
+}

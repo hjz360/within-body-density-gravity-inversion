@@ -1,0 +1,9 @@
+{
+ "seed1_C_domain0_max_abs_diff": 9.47713851928711e-06,
+ "seed1_C_domain1_max_abs_diff": 7.510185241699219e-06,
+ "seed1_H_domain0_max_abs_diff": 6.258487701416016e-06,
+ "seed1_H_domain1_max_abs_diff": 7.033348083496094e-06,
+ "seed2_response_rmse_max_abs_diff": 3.424987433386928e-07,
+ "seed3_response_rmse_max_abs_diff": 3.32827608362507e-07,
+ "passed": true
+}

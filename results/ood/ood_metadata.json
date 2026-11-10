@@ -1,0 +1,5994 @@
+[
+ {
+  "id": 0,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 288,
+  "attempts": 5,
+  "rejections": {
+   "boundary_contact": 3,
+   "voxels=160": 1
+  },
+  "radius": 164.68106121179935,
+  "height": 463.25564895595926,
+  "center_m": [
+   446.77442493313254,
+   311.1083133553619,
+   264.4889354399625
+  ],
+  "yaw_deg": -64.09325893037948,
+  "mean": 0.5357805282743657
+ },
+ {
+  "id": 1,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 355,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 165.77454227569783,
+  "height": 519.6706860891729,
+  "center_m": [
+   412.2868528554841,
+   742.8366599560328,
+   371.80246441018016
+  ],
+  "yaw_deg": 77.45561803954625,
+  "mean": 0.8005181197098898
+ },
+ {
+  "id": 2,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 287,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 176.74846985074433,
+  "height": 386.35341841433046,
+  "center_m": [
+   304.57886822448194,
+   796.9134521870553,
+   481.91941410311296
+  ],
+  "yaw_deg": -103.19386320300913,
+  "mean": 0.6242927724428649
+ },
+ {
+  "id": 3,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 336,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 170.56791243183616,
+  "height": 455.2850443773888,
+  "center_m": [
+   476.5862891996025,
+   1210.7777978032045,
+   446.3411158931141
+  ],
+  "yaw_deg": -93.17105923957008,
+  "mean": 0.8495937000961091
+ },
+ {
+  "id": 4,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 370,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 1,
+   "voxels=147": 1
+  },
+  "radius": 198.4297397508945,
+  "height": 374.38890500730645,
+  "center_m": [
+   1254.5467700103065,
+   526.8434758268618,
+   538.3993431984866
+  ],
+  "yaw_deg": -52.447398468310176,
+  "mean": 0.8429842282792714
+ },
+ {
+  "id": 5,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 259,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 183.4166298493004,
+  "height": 310.52021792084884,
+  "center_m": [
+   370.1900919819559,
+   663.4402869965757,
+   314.3353687650318
+  ],
+  "yaw_deg": 0.4982848556009415,
+  "mean": 0.6587750395975955
+ },
+ {
+  "id": 6,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 471,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 1,
+   "voxels=151": 1
+  },
+  "radius": 187.10540986692217,
+  "height": 532.05370496684,
+  "center_m": [
+   348.3405087758204,
+   635.5143086014764,
+   428.79078322254026
+  ],
+  "yaw_deg": -30.90385563737345,
+  "mean": 0.8296263738711355
+ },
+ {
+  "id": 7,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 545,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 199.54867727992564,
+  "height": 547.2444152585402,
+  "center_m": [
+   1011.5401843703146,
+   499.772639630903,
+   430.0049591236286
+  ],
+  "yaw_deg": -77.54229784343539,
+  "mean": 0.658312704310849
+ },
+ {
+  "id": 8,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 252,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 148.56025428535034,
+  "height": 439.6568637372136,
+  "center_m": [
+   547.8025640969379,
+   1087.8828483832017,
+   522.7301076591914
+  ],
+  "yaw_deg": -179.0786563942991,
+  "mean": 0.6194501498498648
+ },
+ {
+  "id": 9,
+  "family": "vertical_pipe",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 420,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 173.9080824723084,
+  "height": 569.9194630509041,
+  "center_m": [
+   918.693043666821,
+   414.68225242750265,
+   377.2305472946525
+  ],
+  "yaw_deg": 135.15445000938908,
+  "mean": 0.7442460468633835
+ },
+ {
+  "id": 10,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 345,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 2
+  },
+  "radius": 155.01496215416228,
+  "height": 560.8156867191028,
+  "center_m": [
+   698.438146268672,
+   955.73841068437,
+   450.3007515980894
+  ],
+  "yaw_deg": 178.58119454742754,
+  "mean": 0.7418744927944643
+ },
+ {
+  "id": 11,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 259,
+  "attempts": 2,
+  "rejections": {
+   "voxels=114": 1
+  },
+  "radius": 137.1571551422349,
+  "height": 547.42562075218,
+  "center_m": [
+   1059.1614424656277,
+   520.4035033230296,
+   321.6512075097089
+  ],
+  "yaw_deg": 150.62493940087478,
+  "mean": 0.5520396042046912
+ },
+ {
+  "id": 12,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 491,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 199.58718662353346,
+  "height": 484.9682133623629,
+  "center_m": [
+   1292.6075366669781,
+   533.2594883668905,
+   438.5345654911476
+  ],
+  "yaw_deg": -86.71948297483185,
+  "mean": 0.45647262485996076
+ },
+ {
+  "id": 13,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 341,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 185.66122974478498,
+  "height": 401.8266267069681,
+  "center_m": [
+   971.7666469392524,
+   613.9168383941139,
+   489.3365073797609
+  ],
+  "yaw_deg": -166.822657305404,
+  "mean": 0.45345705684367205
+ },
+ {
+  "id": 14,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 307,
+  "attempts": 3,
+  "rejections": {
+   "voxels=138": 1,
+   "boundary_contact": 1
+  },
+  "radius": 168.27000778367588,
+  "height": 424.53616489171924,
+  "center_m": [
+   401.56806101405937,
+   541.4613816021536,
+   437.44447625199376
+  ],
+  "yaw_deg": 22.81398623603094,
+  "mean": 0.6237483577391192
+ },
+ {
+  "id": 15,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 290,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 181.3599898983835,
+  "height": 351.8772861533428,
+  "center_m": [
+   1196.1225410830618,
+   445.63086641414225,
+   502.2392285556169
+  ],
+  "yaw_deg": -69.60551202345056,
+  "mean": 0.45136214232310357
+ },
+ {
+  "id": 16,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 370,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 180.4089944890954,
+  "height": 476.6913179013476,
+  "center_m": [
+   1053.509059556277,
+   1058.5606095099947,
+   415.5722864366054
+  ],
+  "yaw_deg": 10.42238130703397,
+  "mean": 0.6358004049829307
+ },
+ {
+  "id": 17,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 371,
+  "attempts": 2,
+  "rejections": {
+   "voxels=152": 1
+  },
+  "radius": 181.01892039522858,
+  "height": 438.33255455410176,
+  "center_m": [
+   894.2219237258171,
+   587.7702892869193,
+   518.8644296576315
+  ],
+  "yaw_deg": 155.54709935882093,
+  "mean": 0.8155145882752644
+ },
+ {
+  "id": 18,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 183,
+  "attempts": 4,
+  "rejections": {
+   "boundary_contact": 2,
+   "voxels=166": 1
+  },
+  "radius": 123.68939849696747,
+  "height": 461.6545043726997,
+  "center_m": [
+   656.4139251673319,
+   1214.4668087048822,
+   438.2946883932883
+  ],
+  "yaw_deg": -0.5003528674513666,
+  "mean": 0.5635458379000304
+ },
+ {
+  "id": 19,
+  "family": "vertical_pipe",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 252,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 130.42541295375895,
+  "height": 596.9045123880999,
+  "center_m": [
+   365.04557776474314,
+   889.0795900422269,
+   418.7346141548877
+  ],
+  "yaw_deg": 128.4141539988904,
+  "mean": 0.5843539421248156
+ },
+ {
+  "id": 20,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 256,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 164.72050487103743,
+  "height": 372.8418130262297,
+  "center_m": [
+   511.0586535560843,
+   954.4466507073682,
+   552.2898531139138
+  ],
+  "yaw_deg": -112.15665122648808,
+  "mean": 0.5830289811950744
+ },
+ {
+  "id": 21,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 297,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 191.88833003851778,
+  "height": 312.28829681574524,
+  "center_m": [
+   304.63243148238547,
+   657.565997241116,
+   299.06585802626114
+  ],
+  "yaw_deg": -7.087159705308564,
+  "mean": 0.6530295756860067
+ },
+ {
+  "id": 22,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 199,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 162.50988896666678,
+  "height": 303.95084925003863,
+  "center_m": [
+   699.7551897596152,
+   432.034290766052,
+   575.9990025213206
+  ],
+  "yaw_deg": -111.6273665515675,
+  "mean": 0.6334389944871665
+ },
+ {
+  "id": 23,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 319,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 159.80455955137558,
+  "height": 478.8309214225221,
+  "center_m": [
+   574.021161824181,
+   755.1743980522324,
+   449.5003104998714
+  ],
+  "yaw_deg": -179.1022153925734,
+  "mean": 0.6519058526481747
+ },
+ {
+  "id": 24,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 367,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 197.19124639083122,
+  "height": 383.65527204034265,
+  "center_m": [
+   368.10443194969616,
+   698.5125678269642,
+   506.81860468857434
+  ],
+  "yaw_deg": -98.0185523433352,
+  "mean": 0.5521110902522351
+ },
+ {
+  "id": 25,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 255,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 158.01049438670282,
+  "height": 410.91132195243785,
+  "center_m": [
+   450.49289181732115,
+   653.674369639735,
+   405.6631302231881
+  ],
+  "yaw_deg": -4.64307505708242,
+  "mean": 0.4969904067686109
+ },
+ {
+  "id": 26,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 395,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 198.41114544491705,
+  "height": 409.87885895436335,
+  "center_m": [
+   1263.299611111469,
+   571.6513638579629,
+   334.9546780669715
+  ],
+  "yaw_deg": 7.236606045198096,
+  "mean": 0.45140186065872695
+ },
+ {
+  "id": 27,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 365,
+  "attempts": 5,
+  "rejections": {
+   "voxels=139": 1,
+   "boundary_contact": 1,
+   "voxels=140": 1,
+   "voxels=174": 1
+  },
+  "radius": 192.6512727976733,
+  "height": 387.6807759909831,
+  "center_m": [
+   1040.9377665927364,
+   342.9668434049062,
+   245.1176317528974
+  ],
+  "yaw_deg": 115.24210836517383,
+  "mean": 0.5042990575657987
+ },
+ {
+  "id": 28,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 292,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 161.6991703675685,
+  "height": 445.8007115647302,
+  "center_m": [
+   849.8214228767632,
+   658.1359404397049,
+   355.7483153029043
+  ],
+  "yaw_deg": 157.1734157565883,
+  "mean": 0.4520372274948759
+ },
+ {
+  "id": 29,
+  "family": "vertical_pipe",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 275,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 157.5820988279601,
+  "height": 438.17187437038444,
+  "center_m": [
+   1196.2986244072827,
+   982.9977252581128,
+   534.0823420847978
+  ],
+  "yaw_deg": 114.66096211050049,
+  "mean": 0.5815980793110062
+ },
+ {
+  "id": 30,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 309,
+  "attempts": 2,
+  "rejections": {
+   "voxels=174": 1
+  },
+  "radius": 187.1087271204225,
+  "height": 346.67481959781924,
+  "center_m": [
+   1222.3754767664248,
+   971.044980802769,
+   233.4903873656162
+  ],
+  "yaw_deg": 17.83144897173254,
+  "mean": 0.8489212329446378
+ },
+ {
+  "id": 31,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 211,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 130.60178989970152,
+  "height": 503.03520018559425,
+  "center_m": [
+   614.91054870483,
+   1008.9016038790659,
+   410.0493259756093
+  ],
+  "yaw_deg": 46.02968701067386,
+  "mean": 0.7447764121441252
+ },
+ {
+  "id": 32,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 499,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 196.25409794178432,
+  "height": 508.7299051166459,
+  "center_m": [
+   328.8637138149206,
+   1145.7641064866316,
+   326.72890413266737
+  ],
+  "yaw_deg": 54.08861119730092,
+  "mean": 0.695617157769156
+ },
+ {
+  "id": 33,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 230,
+  "attempts": 3,
+  "rejections": {
+   "voxels=178": 2
+  },
+  "radius": 150.70100753161714,
+  "height": 401.2474307111863,
+  "center_m": [
+   775.9762205487721,
+   1240.163194171294,
+   410.26471257379836
+  ],
+  "yaw_deg": 142.0578497447794,
+  "mean": 0.8036282877478678
+ },
+ {
+  "id": 34,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 343,
+  "attempts": 8,
+  "rejections": {
+   "boundary_contact": 6,
+   "voxels=176": 1
+  },
+  "radius": 196.922765769551,
+  "height": 392.0258693938764,
+  "center_m": [
+   388.17758761858727,
+   1255.3399605810168,
+   427.6821202404671
+  ],
+  "yaw_deg": -118.61047533080539,
+  "mean": 0.6660565612575451
+ },
+ {
+  "id": 35,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 185,
+  "attempts": 5,
+  "rejections": {
+   "voxels=174": 1,
+   "boundary_contact": 3
+  },
+  "radius": 134.22651705257204,
+  "height": 389.55400447601585,
+  "center_m": [
+   1044.849258955791,
+   747.2025610373827,
+   349.8891040761571
+  ],
+  "yaw_deg": -82.44743502704195,
+  "mean": 0.6303310756984091
+ },
+ {
+  "id": 36,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 402,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 174.13480917609115,
+  "height": 489.63639264764043,
+  "center_m": [
+   522.7688940718951,
+   787.8004077893243,
+   308.2681906519143
+  ],
+  "yaw_deg": -162.68543509321432,
+  "mean": 0.7452069937160298
+ },
+ {
+  "id": 37,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 450,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 174.0206127654053,
+  "height": 587.5557715748507,
+  "center_m": [
+   478.06347856858736,
+   625.036942699162,
+   365.2526001494135
+  ],
+  "yaw_deg": 146.05578767260343,
+  "mean": 0.563498514104723
+ },
+ {
+  "id": 38,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 266,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 143.4519829008593,
+  "height": 524.3221902548496,
+  "center_m": [
+   451.4153667403516,
+   950.3725069756364,
+   306.3171714878773
+  ],
+  "yaw_deg": -146.617966528618,
+  "mean": 0.534657883627687
+ },
+ {
+  "id": 39,
+  "family": "vertical_pipe",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 185,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 155.84597360765179,
+  "height": 303.88948810197223,
+  "center_m": [
+   549.5449743505317,
+   996.0975322072655,
+   299.6740006835828
+  ],
+  "yaw_deg": 62.29509284856489,
+  "mean": 0.8183619434199213
+ },
+ {
+  "id": 40,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 241,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 156.3739186799071,
+  "height": 425.42124920971867,
+  "center_m": [
+   890.5154289583359,
+   982.745524515647,
+   291.31363560546157
+  ],
+  "yaw_deg": 15.21825953788951,
+  "core_fraction_target": 0.38238499598626696,
+  "core_fraction": 0.3651452282157676,
+  "mean": 0.45630666301051614
+ },
+ {
+  "id": 41,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 296,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 182.94096762750706,
+  "height": 373.1045476089471,
+  "center_m": [
+   958.2112746591413,
+   791.8753446543633,
+   424.25723996990257
+  ],
+  "yaw_deg": -115.21068314297351,
+  "core_fraction_target": 0.4466374521336432,
+  "core_fraction": 0.38513513513513514,
+  "mean": 0.6874772199564575
+ },
+ {
+  "id": 42,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 222,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 163.4640730690946,
+  "height": 335.45232403725373,
+  "center_m": [
+   1255.385496651325,
+   1040.903014931068,
+   515.3739837054613
+  ],
+  "yaw_deg": -45.942027343447556,
+  "core_fraction_target": 0.4543495812594258,
+  "core_fraction": 0.36486486486486486,
+  "mean": 0.716034051187684
+ },
+ {
+  "id": 43,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 215,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 122.4860216209296,
+  "height": 585.2184166067677,
+  "center_m": [
+   1150.7401900059456,
+   1203.1769290107698,
+   449.63049115091104
+  ],
+  "yaw_deg": -103.1537477363191,
+  "core_fraction_target": 0.40512912223895675,
+  "core_fraction": 0.2744186046511628,
+  "mean": 0.7361825731064424
+ },
+ {
+  "id": 44,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 292,
+  "attempts": 4,
+  "rejections": {
+   "boundary_contact": 3
+  },
+  "radius": 144.2335423652326,
+  "height": 537.6250649688859,
+  "center_m": [
+   1153.1558414295196,
+   567.6204429506183,
+   334.5016814334981
+  ],
+  "yaw_deg": 170.81681394947293,
+  "core_fraction_target": 0.4666834718672249,
+  "core_fraction": 0.386986301369863,
+  "mean": 0.6262848205277329
+ },
+ {
+  "id": 45,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 417,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 186.36652897505004,
+  "height": 484.2274553549642,
+  "center_m": [
+   558.0693581029275,
+   823.3916381754716,
+   358.53457923492783
+  ],
+  "yaw_deg": 119.98757507127289,
+  "core_fraction_target": 0.41341946379690797,
+  "core_fraction": 0.33093525179856115,
+  "mean": 0.6676848255628727
+ },
+ {
+  "id": 46,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 336,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 194.1519348207084,
+  "height": 356.2500936613421,
+  "center_m": [
+   1217.5636922080655,
+   320.0912435791736,
+   253.1436032664037
+  ],
+  "yaw_deg": -1.5379210512430657,
+  "core_fraction_target": 0.3802256168665272,
+  "core_fraction": 0.30357142857142855,
+  "mean": 0.5975561804652183
+ },
+ {
+  "id": 47,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 184,
+  "attempts": 2,
+  "rejections": {
+   "voxels=146": 1
+  },
+  "radius": 146.37570475710987,
+  "height": 351.9893045388101,
+  "center_m": [
+   1126.7769548863698,
+   804.2544415485181,
+   426.96188593942765
+  ],
+  "yaw_deg": 113.29990797238146,
+  "core_fraction_target": 0.4514360309891812,
+  "core_fraction": 0.32608695652173914,
+  "mean": 0.533519308465754
+ },
+ {
+  "id": 48,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 260,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 140.35806520042536,
+  "height": 508.79453971462027,
+  "center_m": [
+   1264.4392260816571,
+   345.13907292290133,
+   405.5360348683787
+  ],
+  "yaw_deg": 136.75398738117758,
+  "core_fraction_target": 0.35690518254762527,
+  "core_fraction": 0.2076923076923077,
+  "mean": 0.6607727776620054
+ },
+ {
+  "id": 49,
+  "family": "vertical_pipe",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 202,
+  "attempts": 4,
+  "rejections": {
+   "boundary_contact": 1,
+   "voxels=163": 1,
+   "voxels=149": 1
+  },
+  "radius": 121.16541855107785,
+  "height": 583.5559717620476,
+  "center_m": [
+   1197.9625318489366,
+   652.793731858385,
+   426.38500269056686
+  ],
+  "yaw_deg": -142.0071187734117,
+  "core_fraction_target": 0.37091820379328583,
+  "core_fraction": 0.27722772277227725,
+  "mean": 0.5284764507294339
+ },
+ {
+  "id": 50,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 396,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 195.40221021420234,
+  "height": 390.61691687377476,
+  "center_m": [
+   302.9957933778828,
+   947.1051039548657,
+   404.4867820465723
+  ],
+  "yaw_deg": 12.975935980416732,
+  "cycles": 1.9902147862599464,
+  "phase": 4.489525885528902,
+  "mean": 0.45098372292994876
+ },
+ {
+  "id": 51,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 371,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "radius": 189.0215995419067,
+  "height": 410.59455224593654,
+  "center_m": [
+   404.53372566777375,
+   902.8406001626067,
+   315.64089118829486
+  ],
+  "yaw_deg": -109.10330332569089,
+  "cycles": 2.3651670453055793,
+  "phase": 1.53343178950292,
+  "mean": 0.8028493976331956
+ },
+ {
+  "id": 52,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 220,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 121.37089437383031,
+  "height": 595.4262560857444,
+  "center_m": [
+   1185.2805352861863,
+   304.79631590518517,
+   343.2020032377405
+  ],
+  "yaw_deg": -147.08074076407388,
+  "cycles": 1.7174966216736673,
+  "phase": 2.1173744747477765,
+  "mean": 0.702492225937587
+ },
+ {
+  "id": 53,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 256,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 178.55808271923806,
+  "height": 310.33220199839224,
+  "center_m": [
+   876.7025494092919,
+   676.1091295484343,
+   480.1121959867337
+  ],
+  "yaw_deg": 36.347441113877125,
+  "cycles": 1.7981588596279716,
+  "phase": 2.9781907775438925,
+  "mean": 0.6707021926809165
+ },
+ {
+  "id": 54,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 317,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 176.1178095322579,
+  "height": 390.4479102374919,
+  "center_m": [
+   327.0354762230851,
+   1246.8079673694756,
+   494.92066059267677
+  ],
+  "yaw_deg": 173.9478474424187,
+  "cycles": 1.5888863192300322,
+  "phase": 5.85845688454929,
+  "mean": 0.7686947408516372
+ },
+ {
+  "id": 55,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 287,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 161.35569321537903,
+  "height": 450.87743672757546,
+  "center_m": [
+   505.9590507008745,
+   610.6300665983658,
+   443.3681793796504
+  ],
+  "yaw_deg": 63.19082095953872,
+  "cycles": 2.1496928856058144,
+  "phase": 4.8112359776450235,
+  "mean": 0.7116316163394039
+ },
+ {
+  "id": 56,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 439,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 196.5061988400389,
+  "height": 468.6860831917638,
+  "center_m": [
+   955.7747749454285,
+   323.1294267839967,
+   477.6720235770857
+  ],
+  "yaw_deg": 134.8474126351523,
+  "cycles": 2.2864033213955497,
+  "phase": 3.2078068803442346,
+  "mean": 0.5937488924226111
+ },
+ {
+  "id": 57,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 275,
+  "attempts": 2,
+  "rejections": {
+   "voxels=154": 1
+  },
+  "radius": 169.43187060859594,
+  "height": 382.9275589586217,
+  "center_m": [
+   970.8092457131223,
+   814.0150865038637,
+   278.1959190958394
+  ],
+  "yaw_deg": -77.24496714478163,
+  "cycles": 1.7243141615111008,
+  "phase": 3.0179091118252463,
+  "mean": 0.5557844343246345
+ },
+ {
+  "id": 58,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 360,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 194.5275975379725,
+  "height": 376.2752158261357,
+  "center_m": [
+   943.6876615711154,
+   712.6733504787719,
+   477.2408738525111
+  ],
+  "yaw_deg": 79.01940156801773,
+  "cycles": 1.8771767348693507,
+  "phase": 0.5244063685712987,
+  "mean": 0.5846923223340391
+ },
+ {
+  "id": 59,
+  "family": "vertical_pipe",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 191,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 160.11001821870377,
+  "height": 301.73466251186807,
+  "center_m": [
+   1034.0809561372605,
+   887.1330641634997,
+   320.66924626099694
+  ],
+  "yaw_deg": 8.325580268478731,
+  "cycles": 2.274755985045327,
+  "phase": 5.103944139026546,
+  "mean": 0.4929889425564756
+ },
+ {
+  "id": 60,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 297,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 164.81692563380284,
+  "height": 426.4617403058773,
+  "center_m": [
+   720.5103308920652,
+   1254.1112855931533,
+   412.35699677435275
+  ],
+  "yaw_deg": -114.61539946742752,
+  "n_patches": 6,
+  "mean": 0.6306391818979675
+ },
+ {
+  "id": 61,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 245,
+  "attempts": 6,
+  "rejections": {
+   "boundary_contact": 4,
+   "voxels=177": 1
+  },
+  "radius": 165.67011713970106,
+  "height": 351.19463595758833,
+  "center_m": [
+   1165.4768197281232,
+   627.4908964052514,
+   422.069805379852
+  ],
+  "yaw_deg": -54.753890876359876,
+  "n_patches": 4,
+  "mean": 0.590211664024919
+ },
+ {
+  "id": 62,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 306,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 162.41199438918105,
+  "height": 476.7801406123198,
+  "center_m": [
+   892.7011845981249,
+   1238.2305406198625,
+   472.971095074055
+  ],
+  "yaw_deg": 134.98483805493112,
+  "n_patches": 4,
+  "mean": 0.6771239491993964
+ },
+ {
+  "id": 63,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 211,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 164.97191805381368,
+  "height": 342.0593235168775,
+  "center_m": [
+   356.29508510963564,
+   449.5356717354901,
+   254.52538367967594
+  ],
+  "yaw_deg": 12.222835901716785,
+  "n_patches": 5,
+  "mean": 0.4827696200470935
+ },
+ {
+  "id": 64,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 200,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 129.9985607667188,
+  "height": 475.4663860623773,
+  "center_m": [
+   535.7852989150844,
+   1135.684563617317,
+   477.944464632313
+  ],
+  "yaw_deg": 60.10918390450998,
+  "n_patches": 3,
+  "mean": 0.49042688434826337
+ },
+ {
+  "id": 65,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 220,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 123.76009157095767,
+  "height": 575.4837322773608,
+  "center_m": [
+   437.57232642074143,
+   1251.8894092693665,
+   421.55511452375583
+  ],
+  "yaw_deg": 143.99085702255707,
+  "n_patches": 3,
+  "mean": 0.8278267812684931
+ },
+ {
+  "id": 66,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 209,
+  "attempts": 7,
+  "rejections": {
+   "voxels=130": 1,
+   "boundary_contact": 4,
+   "voxels=173": 1
+  },
+  "radius": 143.71320011577023,
+  "height": 405.64960343181025,
+  "center_m": [
+   955.466848820788,
+   318.34455408824596,
+   553.1636808521142
+  ],
+  "yaw_deg": 122.24519965736452,
+  "n_patches": 5,
+  "mean": 0.8113039182157971
+ },
+ {
+  "id": 67,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 270,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 172.12095963042617,
+  "height": 355.7247898901697,
+  "center_m": [
+   741.8351265664812,
+   575.1048406734981,
+   437.421795651651
+  ],
+  "yaw_deg": -170.4618176574385,
+  "n_patches": 6,
+  "mean": 0.4917304970800093
+ },
+ {
+  "id": 68,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 517,
+  "attempts": 1,
+  "rejections": {},
+  "radius": 197.4405340542157,
+  "height": 524.9024168002443,
+  "center_m": [
+   612.595324951561,
+   1125.2191419687488,
+   379.2884413446383
+  ],
+  "yaw_deg": 152.495652877898,
+  "n_patches": 3,
+  "mean": 0.6805230829298361
+ },
+ {
+  "id": 69,
+  "family": "vertical_pipe",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 270,
+  "attempts": 4,
+  "rejections": {
+   "boundary_contact": 3
+  },
+  "radius": 149.54184903773867,
+  "height": 486.72600929583405,
+  "center_m": [
+   881.8903839100433,
+   506.45534430515147,
+   303.8753414135555
+  ],
+  "yaw_deg": 83.91171492825642,
+  "n_patches": 5,
+  "mean": 0.7376486361979773
+ },
+ {
+  "id": 70,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 254,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 331.01379215298925,
+  "r_inner": 187.00204523989146,
+  "thickness": 131.78215009145313,
+  "center_m": [
+   874.0698497034148,
+   399.3043681291646,
+   353.33978875559535
+  ],
+  "yaw_deg": 150.85213652574353,
+  "mean": 0.7238804154922747
+ },
+ {
+  "id": 71,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 262,
+  "attempts": 2,
+  "rejections": {
+   "voxels=172": 1
+  },
+  "r_outer": 268.1457537587255,
+  "r_inner": 145.11038454587717,
+  "thickness": 201.90946665066792,
+  "center_m": [
+   752.1235103498334,
+   1274.1500217181192,
+   372.3248778192848
+  ],
+  "yaw_deg": -78.68264820262901,
+  "mean": 0.5569675390836047
+ },
+ {
+  "id": 72,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 332,
+  "attempts": 4,
+  "rejections": {
+   "boundary_contact": 3
+  },
+  "r_outer": 370.288203491188,
+  "r_inner": 217.17830766908688,
+  "thickness": 145.2365283945984,
+  "center_m": [
+   454.6909815666693,
+   510.2965886914957,
+   491.0978391993559
+  ],
+  "yaw_deg": -46.68033693486347,
+  "mean": 0.8294921436764235
+ },
+ {
+  "id": 73,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 371,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 340.30334448942443,
+  "r_inner": 180.19861853803843,
+  "thickness": 194.80125351490284,
+  "center_m": [
+   592.7679926441265,
+   722.6772352257747,
+   275.01949196364706
+  ],
+  "yaw_deg": -109.50758306209634,
+  "mean": 0.8054382713090169
+ },
+ {
+  "id": 74,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 214,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 263.7110004627057,
+  "r_inner": 150.433448977787,
+  "thickness": 183.99621696268395,
+  "center_m": [
+   661.5782241219781,
+   303.4482634879002,
+   489.19698248000117
+  ],
+  "yaw_deg": -133.00533807045764,
+  "mean": 0.5853671981617304
+ },
+ {
+  "id": 75,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 443,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 365.34763272649576,
+  "r_inner": 215.86124080878173,
+  "thickness": 203.08157944133674,
+  "center_m": [
+   1052.4126780998768,
+   508.86417031799067,
+   397.63386423609745
+  ],
+  "yaw_deg": 149.23498654967767,
+  "mean": 0.8127183303804875
+ },
+ {
+  "id": 76,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 420,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 363.6296298436972,
+  "r_inner": 219.75375913094743,
+  "thickness": 210.53313935584742,
+  "center_m": [
+   615.1674637982882,
+   583.9168181269524,
+   295.50628112821823
+  ],
+  "yaw_deg": -16.741813981123585,
+  "mean": 0.722813309472404
+ },
+ {
+  "id": 77,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 494,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 359.00586988681033,
+  "r_inner": 171.97356799127022,
+  "thickness": 198.7586914377015,
+  "center_m": [
+   1191.6464074139533,
+   1012.936646725492,
+   375.80916228473654
+  ],
+  "yaw_deg": -129.31634241896566,
+  "mean": 0.7805673872300063
+ },
+ {
+  "id": 78,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 212,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 250.36434768250186,
+  "r_inner": 142.0785443133879,
+  "thickness": 199.00487889020513,
+  "center_m": [
+   372.0304110211869,
+   1285.790588087178,
+   444.9102493368894
+  ],
+  "yaw_deg": -76.88863637668143,
+  "mean": 0.8076723049908898
+ },
+ {
+  "id": 79,
+  "family": "ring",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 455,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "r_outer": 341.3154805988217,
+  "r_inner": 168.17474839663134,
+  "thickness": 201.75726261048453,
+  "center_m": [
+   562.0561502417268,
+   945.0806182007653,
+   322.20755356960433
+  ],
+  "yaw_deg": 103.97079588915221,
+  "mean": 0.5030800363400694
+ },
+ {
+  "id": 80,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 219,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 260.46502752625616,
+  "r_inner": 136.8687742685209,
+  "thickness": 176.25191225514843,
+  "center_m": [
+   747.5892934019229,
+   1047.555153880733,
+   209.54759333903533
+  ],
+  "yaw_deg": 178.59721311347988,
+  "mean": 0.6085211834744533
+ },
+ {
+  "id": 81,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 281,
+  "attempts": 2,
+  "rejections": {
+   "voxels=165": 1
+  },
+  "r_outer": 302.20745710306153,
+  "r_inner": 184.86995442609413,
+  "thickness": 195.62490881303444,
+  "center_m": [
+   774.4176199183547,
+   1230.442155386534,
+   582.5028268485581
+  ],
+  "yaw_deg": -168.64919804989788,
+  "mean": 0.8098344190100095
+ },
+ {
+  "id": 82,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 207,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 284.2380375047868,
+  "r_inner": 182.88415621366042,
+  "thickness": 170.2506198172772,
+  "center_m": [
+   500.26355471001466,
+   661.0537933962735,
+   165.2204707902273
+  ],
+  "yaw_deg": -21.667873168073474,
+  "mean": 0.633681996705121
+ },
+ {
+  "id": 83,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 194,
+  "attempts": 2,
+  "rejections": {
+   "voxels=173": 1
+  },
+  "r_outer": 261.08800359823533,
+  "r_inner": 134.17438141066668,
+  "thickness": 161.51862326052796,
+  "center_m": [
+   1061.0728580299076,
+   1280.865769188314,
+   241.9298017882593
+  ],
+  "yaw_deg": -21.423650807748956,
+  "mean": 0.5129178256822146
+ },
+ {
+  "id": 84,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 250,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "r_outer": 266.6207134164087,
+  "r_inner": 137.09870851229502,
+  "thickness": 184.1811097919056,
+  "center_m": [
+   552.5454162845592,
+   1000.0744219816856,
+   376.46370857081854
+  ],
+  "yaw_deg": -41.862995299073795,
+  "mean": 0.5556847973772777
+ },
+ {
+  "id": 85,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 381,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 344.5065769908862,
+  "r_inner": 188.34398882771305,
+  "thickness": 189.58383713593952,
+  "center_m": [
+   594.0086338453632,
+   467.7694634694167,
+   382.7172341353861
+  ],
+  "yaw_deg": -127.74844937977069,
+  "mean": 0.6859120672959397
+ },
+ {
+  "id": 86,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 292,
+  "attempts": 2,
+  "rejections": {
+   "voxels=169": 1
+  },
+  "r_outer": 326.5944294963577,
+  "r_inner": 206.03487635325206,
+  "thickness": 178.19483433986704,
+  "center_m": [
+   967.0725487010995,
+   786.1228427056992,
+   269.89139579024425
+  ],
+  "yaw_deg": 89.46676527176454,
+  "mean": 0.5769541942155014
+ },
+ {
+  "id": 87,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 267,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 306.09574822824857,
+  "r_inner": 173.78648527858473,
+  "thickness": 167.3459323737726,
+  "center_m": [
+   691.3404710679624,
+   816.6014256316023,
+   532.9316589788687
+  ],
+  "yaw_deg": 167.81582910626773,
+  "mean": 0.6175729271742606
+ },
+ {
+  "id": 88,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 253,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 273.6383956576433,
+  "r_inner": 156.80891002558462,
+  "thickness": 198.07078980361425,
+  "center_m": [
+   1283.017601991122,
+   863.9401489976331,
+   594.6863612065616
+  ],
+  "yaw_deg": 108.72316573760679,
+  "mean": 0.831035942116712
+ },
+ {
+  "id": 89,
+  "family": "ring",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 418,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 321.2668529142748,
+  "r_inner": 159.28284911242008,
+  "thickness": 206.60758154776593,
+  "center_m": [
+   638.3087984261283,
+   616.2536084709443,
+   262.16828008210075
+  ],
+  "yaw_deg": 167.40121261090448,
+  "mean": 0.7451487841700586
+ },
+ {
+  "id": 90,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 404,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 357.1913077248108,
+  "r_inner": 207.6762125148103,
+  "thickness": 191.97500329161272,
+  "center_m": [
+   921.6861608582046,
+   534.4336051101056,
+   193.22743999577693
+  ],
+  "yaw_deg": 13.647898690616127,
+  "mean": 0.6420027636846677
+ },
+ {
+  "id": 91,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 217,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 271.6156213211375,
+  "r_inner": 131.63984102627754,
+  "thickness": 174.09849466346697,
+  "center_m": [
+   1219.8367918006163,
+   835.4645542210584,
+   380.40963597056634
+  ],
+  "yaw_deg": 162.70390324107555,
+  "mean": 0.7353412929890185
+ },
+ {
+  "id": 92,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 361,
+  "attempts": 2,
+  "rejections": {
+   "erosion": 1
+  },
+  "r_outer": 301.5633496381452,
+  "r_inner": 137.63306272400445,
+  "thickness": 199.6505398078105,
+  "center_m": [
+   929.3098770518352,
+   1002.9792355211438,
+   552.1830670740239
+  ],
+  "yaw_deg": 28.648306699924817,
+  "mean": 0.5015221928697886
+ },
+ {
+  "id": 93,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 364,
+  "attempts": 5,
+  "rejections": {
+   "voxels=162": 1,
+   "boundary_contact": 2,
+   "erosion": 1
+  },
+  "r_outer": 361.43723073099795,
+  "r_inner": 204.1198321885063,
+  "thickness": 155.66184637090353,
+  "center_m": [
+   761.5347248510433,
+   785.0731438575565,
+   473.25223201447875
+  ],
+  "yaw_deg": 133.79937633723364,
+  "mean": 0.5758466683591374
+ },
+ {
+  "id": 94,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 356,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 351.3813009113918,
+  "r_inner": 167.07483432253616,
+  "thickness": 151.3758820423813,
+  "center_m": [
+   600.338001321081,
+   730.9930539889394,
+   329.2345337798141
+  ],
+  "yaw_deg": -106.49659857905448,
+  "mean": 0.6456318433887395
+ },
+ {
+  "id": 95,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 340,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 322.7971909732956,
+  "r_inner": 199.41226866239558,
+  "thickness": 209.6504453322891,
+  "center_m": [
+   886.9758173506166,
+   567.779590645268,
+   287.04302510966545
+  ],
+  "yaw_deg": -87.15034613111928,
+  "mean": 0.8292991620925552
+ },
+ {
+  "id": 96,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 257,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 374.2713838160082,
+  "r_inner": 206.0365910123845,
+  "thickness": 110.51334857237732,
+  "center_m": [
+   443.38979465338605,
+   1074.295211479454,
+   275.19676741902344
+  ],
+  "yaw_deg": 44.69007319762634,
+  "mean": 0.7353387853408417
+ },
+ {
+  "id": 97,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 314,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 315.4505912173483,
+  "r_inner": 163.01138125109904,
+  "thickness": 179.34087901278454,
+  "center_m": [
+   843.1967764474708,
+   945.4985338399241,
+   404.66787715544956
+  ],
+  "yaw_deg": -120.72317680203797,
+  "mean": 0.5773904484495903
+ },
+ {
+  "id": 98,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 473,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 373.3636898668767,
+  "r_inner": 193.41046943806265,
+  "thickness": 173.97219504762074,
+  "center_m": [
+   462.0453752314126,
+   1028.0554705319068,
+   421.96670021947784
+  ],
+  "yaw_deg": 7.225886952569639,
+  "mean": 0.7246148199200464
+ },
+ {
+  "id": 99,
+  "family": "ring",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 408,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 374.2963848835668,
+  "r_inner": 181.5070862322269,
+  "thickness": 128.40734464912688,
+  "center_m": [
+   841.1508840570323,
+   414.7844097199754,
+   371.2279495739378
+  ],
+  "yaw_deg": 120.02486141625891,
+  "mean": 0.5743780511382671
+ },
+ {
+  "id": 100,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 188,
+  "attempts": 3,
+  "rejections": {
+   "voxels=158": 1,
+   "boundary_contact": 1
+  },
+  "r_outer": 302.14052717575663,
+  "r_inner": 183.57079187816234,
+  "thickness": 134.63407656717663,
+  "center_m": [
+   524.8943010897018,
+   454.8228188677318,
+   460.60936930854086
+  ],
+  "yaw_deg": -123.14217862787159,
+  "mean": 0.7237043743797649
+ },
+ {
+  "id": 101,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 528,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 373.2729162895141,
+  "r_inner": 177.7443224511179,
+  "thickness": 187.98644255600817,
+  "center_m": [
+   822.1682224142444,
+   1069.2705598515304,
+   255.98673490062868
+  ],
+  "yaw_deg": -46.44013598444092,
+  "mean": 0.5826700196377085
+ },
+ {
+  "id": 102,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 302,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 274.9579802376983,
+  "r_inner": 131.46696248255714,
+  "thickness": 203.6409288695176,
+  "center_m": [
+   1133.4333823448142,
+   450.9018973977372,
+   328.8439230798612
+  ],
+  "yaw_deg": 21.897169508573583,
+  "mean": 0.6842555627941451
+ },
+ {
+  "id": 103,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 385,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 360.0237127779172,
+  "r_inner": 213.05946405249802,
+  "thickness": 169.4630577587393,
+  "center_m": [
+   413.3889122435752,
+   1023.9508119640956,
+   443.83328079969243
+  ],
+  "yaw_deg": -58.84817324406992,
+  "mean": 0.6340114421556731
+ },
+ {
+  "id": 104,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 224,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 275.59440029486643,
+  "r_inner": 153.53426621185702,
+  "thickness": 188.86798661249273,
+  "center_m": [
+   1247.6033969674759,
+   349.90743470775885,
+   246.99681463535046
+  ],
+  "yaw_deg": 98.27105023891876,
+  "mean": 0.50239825204886
+ },
+ {
+  "id": 105,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 183,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 278.2520511852026,
+  "r_inner": 179.55309627082136,
+  "thickness": 175.4201166717818,
+  "center_m": [
+   1267.501783648555,
+   1188.7535296493154,
+   477.88362159298964
+  ],
+  "yaw_deg": 15.476489551265024,
+  "mean": 0.49096089086377864
+ },
+ {
+  "id": 106,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 258,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 259.1922958765833,
+  "r_inner": 123.26062244212778,
+  "thickness": 161.05864316101028,
+  "center_m": [
+   871.2591025406288,
+   1166.2415763959284,
+   401.3162771090467
+  ],
+  "yaw_deg": 168.81833660725107,
+  "mean": 0.6557981644969136
+ },
+ {
+  "id": 107,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 366,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 304.5930212296877,
+  "r_inner": 160.0617212892096,
+  "thickness": 212.97986008773685,
+  "center_m": [
+   978.750945960435,
+   620.378029464257,
+   452.7459931062763
+  ],
+  "yaw_deg": 178.32912127476874,
+  "mean": 0.5208109501546136
+ },
+ {
+  "id": 108,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 360,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "r_outer": 302.6926824540486,
+  "r_inner": 149.0920830664776,
+  "thickness": 212.29892955380748,
+  "center_m": [
+   848.8089765781161,
+   1202.5131206581636,
+   575.9263496534959
+  ],
+  "yaw_deg": -3.885256795537901,
+  "mean": 0.7096562054024984
+ },
+ {
+  "id": 109,
+  "family": "ring",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 218,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 271.2677651379118,
+  "r_inner": 135.9749925223735,
+  "thickness": 158.62783801270257,
+  "center_m": [
+   854.969511414368,
+   972.4402116507765,
+   154.68684981554276
+  ],
+  "yaw_deg": 164.0408122007938,
+  "mean": 0.5031048799152584
+ },
+ {
+  "id": 110,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 256,
+  "attempts": 2,
+  "rejections": {
+   "voxels=121": 1
+  },
+  "r_outer": 269.69544920127964,
+  "r_inner": 134.30379627095402,
+  "thickness": 180.5667137327876,
+  "center_m": [
+   575.6438409580142,
+   844.895173017739,
+   542.4976088515696
+  ],
+  "yaw_deg": 6.800198840549056,
+  "core_fraction_target": 0.3320380675642181,
+  "core_fraction": 0.14453125,
+  "mean": 0.8354516383242505
+ },
+ {
+  "id": 111,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 303,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 301.680075722065,
+  "r_inner": 163.39168048108414,
+  "thickness": 177.48824858030918,
+  "center_m": [
+   1233.6313933615475,
+   847.7106173042984,
+   479.5950392119363
+  ],
+  "yaw_deg": 68.60497204676751,
+  "core_fraction_target": 0.4025704094651844,
+  "core_fraction": 0.17491749174917492,
+  "mean": 0.7744250046184173
+ },
+ {
+  "id": 112,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 238,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 259.3709866659432,
+  "r_inner": 143.97261033847894,
+  "thickness": 204.76855037931412,
+  "center_m": [
+   425.2587248422382,
+   453.94801004828355,
+   384.13903831186826
+  ],
+  "yaw_deg": 21.183400362406715,
+  "core_fraction_target": 0.3489084994274841,
+  "core_fraction": 0.11764705882352941,
+  "mean": 0.6055968871943227
+ },
+ {
+  "id": 113,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 193,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 266.4932687810452,
+  "r_inner": 139.7910680293034,
+  "thickness": 157.57192700148863,
+  "center_m": [
+   879.299559465887,
+   594.3630323718905,
+   415.43334178236296
+  ],
+  "yaw_deg": -122.37456132866512,
+  "core_fraction_target": 0.4498273922205691,
+  "core_fraction": 0.09326424870466321,
+  "mean": 0.4587120752380315
+ },
+ {
+  "id": 114,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 300,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 308.7341654413246,
+  "r_inner": 194.30347998384445,
+  "thickness": 163.72094656131003,
+  "center_m": [
+   870.3877744073255,
+   748.3502553338594,
+   497.0138579038098
+  ],
+  "yaw_deg": 142.26878206503102,
+  "core_fraction_target": 0.3463928550630027,
+  "core_fraction": 0.11333333333333333,
+  "mean": 0.7458834455074167
+ },
+ {
+  "id": 115,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 224,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 278.4441696007326,
+  "r_inner": 130.51056145218433,
+  "thickness": 142.18761250891794,
+  "center_m": [
+   527.5474160586859,
+   401.37878555925886,
+   398.29760314841917
+  ],
+  "yaw_deg": -43.56370755544817,
+  "core_fraction_target": 0.3957169744560818,
+  "core_fraction": 0.11607142857142858,
+  "mean": 0.7628155603815221
+ },
+ {
+  "id": 116,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 215,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 255.2363727802403,
+  "r_inner": 137.43233423042025,
+  "thickness": 193.2805158745186,
+  "center_m": [
+   638.5293272103868,
+   341.39545497987586,
+   383.55345959639396
+  ],
+  "yaw_deg": -64.77892266240056,
+  "core_fraction_target": 0.37040706051184863,
+  "core_fraction": 0.11162790697674418,
+  "mean": 0.49422479643834627
+ },
+ {
+  "id": 117,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 201,
+  "attempts": 2,
+  "rejections": {
+   "voxels=162": 1
+  },
+  "r_outer": 336.2637611739383,
+  "r_inner": 206.86681871720447,
+  "thickness": 123.37302820732334,
+  "center_m": [
+   685.5461493382871,
+   956.6409111549924,
+   579.4810014651807
+  ],
+  "yaw_deg": 51.83253223533348,
+  "core_fraction_target": 0.3322403565677599,
+  "core_fraction": 0.04975124378109453,
+  "mean": 0.5323633831978282
+ },
+ {
+  "id": 118,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 184,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "r_outer": 278.67211064484957,
+  "r_inner": 167.96134398148442,
+  "thickness": 149.04138430416634,
+  "center_m": [
+   653.7431584401711,
+   348.82510528059356,
+   336.21439445786575
+  ],
+  "yaw_deg": 12.449411924384938,
+  "core_fraction_target": 0.4977265217912457,
+  "core_fraction": 0.07608695652173914,
+  "mean": 0.6016520679735465
+ },
+ {
+  "id": 119,
+  "family": "ring",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 232,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 341.132199326272,
+  "r_inner": 211.02150160966198,
+  "thickness": 128.32800272097782,
+  "center_m": [
+   1024.4153705293133,
+   791.5566139178775,
+   391.1892744874963
+  ],
+  "yaw_deg": -100.05842506155697,
+  "core_fraction_target": 0.3672851889373534,
+  "core_fraction": 0.07327586206896551,
+  "mean": 0.5477682212047822
+ },
+ {
+  "id": 120,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 360,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 339.32721400184886,
+  "r_inner": 192.4620947618831,
+  "thickness": 183.38807043676826,
+  "center_m": [
+   529.5635919834699,
+   499.0109352440643,
+   498.1369097367667
+  ],
+  "yaw_deg": 94.69942023538003,
+  "cycles": 1.697423287236721,
+  "phase": 4.260814815307473,
+  "mean": 0.7707094921897532
+ },
+ {
+  "id": 121,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 202,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 279.7901019369502,
+  "r_inner": 143.996744804082,
+  "thickness": 146.2043941210269,
+  "center_m": [
+   346.77450136410766,
+   691.0003440564283,
+   283.23855411792033
+  ],
+  "yaw_deg": 1.8593533877064838,
+  "cycles": 1.860517879972023,
+  "phase": 3.2463001767704083,
+  "mean": 0.5386849213724684
+ },
+ {
+  "id": 122,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 275,
+  "attempts": 2,
+  "rejections": {
+   "voxels=170": 1
+  },
+  "r_outer": 274.410969315877,
+  "r_inner": 125.44518261641501,
+  "thickness": 182.64267135900892,
+  "center_m": [
+   433.3444595434079,
+   1152.7628934113618,
+   275.75007168691917
+  ],
+  "yaw_deg": 24.745080669479254,
+  "cycles": 2.115954699712951,
+  "phase": 2.7161924313743677,
+  "mean": 0.7375872161581262
+ },
+ {
+  "id": 123,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 551,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 372.2881616416721,
+  "r_inner": 172.7727974318575,
+  "thickness": 218.15965955384362,
+  "center_m": [
+   1015.771129090679,
+   1025.7003680930484,
+   186.67199753732137
+  ],
+  "yaw_deg": 66.35231076270324,
+  "cycles": 1.7845786482961072,
+  "phase": 1.6219730304210103,
+  "mean": 0.6148163360537667
+ },
+ {
+  "id": 124,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 283,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 300.4838695556684,
+  "r_inner": 188.21962930433236,
+  "thickness": 210.69315118563333,
+  "center_m": [
+   872.8522640985208,
+   1225.895065186683,
+   229.71244940002543
+  ],
+  "yaw_deg": 28.817965452008785,
+  "cycles": 2.413269978533884,
+  "phase": 1.2515365089203416,
+  "mean": 0.7647884983632751
+ },
+ {
+  "id": 125,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 469,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "r_outer": 333.13877768759016,
+  "r_inner": 150.59926800828967,
+  "thickness": 208.24242308538714,
+  "center_m": [
+   654.4353717377148,
+   1206.3692008296607,
+   252.61330839822887
+  ],
+  "yaw_deg": 81.82171739781029,
+  "cycles": 1.9378845536567249,
+  "phase": 1.9795438153636542,
+  "mean": 0.4821734611310882
+ },
+ {
+  "id": 126,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 239,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 271.1383427692125,
+  "r_inner": 122.48190633395805,
+  "thickness": 169.10725358846474,
+  "center_m": [
+   1115.1668061928544,
+   1084.926881673558,
+   303.0537440866648
+  ],
+  "yaw_deg": -165.52722373041115,
+  "cycles": 2.394024957652805,
+  "phase": 4.546491186184155,
+  "mean": 0.5114636113828808
+ },
+ {
+  "id": 127,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 214,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "r_outer": 303.6673905284003,
+  "r_inner": 194.23232707587968,
+  "thickness": 166.5952127772903,
+  "center_m": [
+   603.3816191388383,
+   459.8910612939493,
+   598.9696305370585
+  ],
+  "yaw_deg": -78.9638238214648,
+  "cycles": 2.4824766326917858,
+  "phase": 3.104779841871613,
+  "mean": 0.7650594072164347
+ },
+ {
+  "id": 128,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 202,
+  "attempts": 2,
+  "rejections": {
+   "flat_density": 1
+  },
+  "r_outer": 292.7686637268981,
+  "r_inner": 183.24161336632568,
+  "thickness": 157.06569069999335,
+  "center_m": [
+   682.9800414647746,
+   1141.8622910320967,
+   201.32966795115692
+  ],
+  "yaw_deg": -43.46089271718687,
+  "cycles": 1.6557780714289638,
+  "phase": 2.00311152161937,
+  "mean": 0.7545992310818612
+ },
+ {
+  "id": 129,
+  "family": "ring",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 228,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 290.3741278635613,
+  "r_inner": 174.51745911066155,
+  "thickness": 170.5457523598493,
+  "center_m": [
+   346.886913180159,
+   661.2813358829222,
+   343.84114616170143
+  ],
+  "yaw_deg": -24.869402718534687,
+  "cycles": 1.5097168023961296,
+  "phase": 2.490390980849594,
+  "mean": 0.4723258935608577
+ },
+ {
+  "id": 130,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 253,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 357.58000463927294,
+  "r_inner": 201.69137134604821,
+  "thickness": 116.22521112719441,
+  "center_m": [
+   960.9070748404761,
+   795.1864215082454,
+   391.374572582037
+  ],
+  "yaw_deg": -52.90070472060835,
+  "n_patches": 6,
+  "mean": 0.5855979606677431
+ },
+ {
+  "id": 131,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 272,
+  "attempts": 2,
+  "rejections": {
+   "voxels=117": 1
+  },
+  "r_outer": 298.62273688978394,
+  "r_inner": 184.40583661745367,
+  "thickness": 193.67258050859502,
+  "center_m": [
+   493.1645406480161,
+   534.9616741545717,
+   317.402028416168
+  ],
+  "yaw_deg": 98.59556923897001,
+  "n_patches": 5,
+  "mean": 0.8277803998406512
+ },
+ {
+  "id": 132,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 255,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 303.7779362314071,
+  "r_inner": 186.82121279223315,
+  "thickness": 172.70597642437647,
+  "center_m": [
+   415.34050723100387,
+   1060.3563826836971,
+   316.78676022878824
+  ],
+  "yaw_deg": -41.51090755006015,
+  "n_patches": 3,
+  "mean": 0.6360566503871116
+ },
+ {
+  "id": 133,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 222,
+  "attempts": 5,
+  "rejections": {
+   "voxels=160": 1,
+   "voxels=178": 1,
+   "voxels=129": 1,
+   "boundary_contact": 1
+  },
+  "r_outer": 271.4708393776726,
+  "r_inner": 134.57532296937688,
+  "thickness": 156.60460635960615,
+  "center_m": [
+   824.296331752457,
+   1206.4569943930996,
+   416.599532925885
+  ],
+  "yaw_deg": 177.35501317459494,
+  "n_patches": 5,
+  "mean": 0.7908404598118055
+ },
+ {
+  "id": 134,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 273,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 1,
+   "erosion": 1
+  },
+  "r_outer": 349.50961576532427,
+  "r_inner": 188.51504950810096,
+  "thickness": 123.98560519050336,
+  "center_m": [
+   647.5993216864435,
+   635.1410269560798,
+   157.76342446133302
+  ],
+  "yaw_deg": 148.6246927904995,
+  "n_patches": 4,
+  "mean": 0.6627421896106362
+ },
+ {
+  "id": 135,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 237,
+  "attempts": 2,
+  "rejections": {
+   "voxels=157": 1
+  },
+  "r_outer": 295.39130748613604,
+  "r_inner": 158.09499698098674,
+  "thickness": 155.09930985118484,
+  "center_m": [
+   879.1392042281793,
+   733.2926478866929,
+   522.7608768986527
+  ],
+  "yaw_deg": 82.47888476401887,
+  "n_patches": 4,
+  "mean": 0.5806295363470437
+ },
+ {
+  "id": 136,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 185,
+  "attempts": 2,
+  "rejections": {
+   "erosion": 1
+  },
+  "r_outer": 258.73244834905455,
+  "r_inner": 139.16252076718146,
+  "thickness": 164.13878847686482,
+  "center_m": [
+   533.7487470605176,
+   752.1521335657368,
+   197.8760916494415
+  ],
+  "yaw_deg": 176.40556636199082,
+  "n_patches": 6,
+  "mean": 0.5020580023151977
+ },
+ {
+  "id": 137,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 210,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 306.7721761868273,
+  "r_inner": 150.45166322812278,
+  "thickness": 117.6519605891157,
+  "center_m": [
+   758.9847537546841,
+   945.2753436550265,
+   310.967368411549
+  ],
+  "yaw_deg": -15.30867169019052,
+  "n_patches": 3,
+  "mean": 0.7937512014025427
+ },
+ {
+  "id": 138,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 394,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 373.51408700331547,
+  "r_inner": 181.71272009714426,
+  "thickness": 110.29721863101167,
+  "center_m": [
+   494.09754944255167,
+   1029.4369861984733,
+   327.2149198065788
+  ],
+  "yaw_deg": -90.19812201513814,
+  "n_patches": 3,
+  "mean": 0.6166895840061446
+ },
+ {
+  "id": 139,
+  "family": "ring",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 240,
+  "attempts": 1,
+  "rejections": {},
+  "r_outer": 276.80332462670697,
+  "r_inner": 167.05054722200668,
+  "thickness": 191.02225037530434,
+  "center_m": [
+   517.8362365129128,
+   767.9559479950492,
+   587.6763912727672
+  ],
+  "yaw_deg": -10.603244731818895,
+  "n_patches": 3,
+  "mean": 0.45447637677062097
+ },
+ {
+  "id": 140,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 318,
+  "attempts": 3,
+  "rejections": {
+   "voxels=134": 1,
+   "voxels=159": 1
+  },
+  "arm1": 655.8016406237097,
+  "arm2": 464.885558255889,
+  "width": 184.90628753484225,
+  "thickness": 225.10877530146522,
+  "center_m": [
+   1261.099629770471,
+   944.6431377667627,
+   249.05342026589318
+  ],
+  "yaw_deg": -63.26068107681246,
+  "mean": 0.7024686550348205
+ },
+ {
+  "id": 141,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 191,
+  "attempts": 3,
+  "rejections": {
+   "voxels=146": 1,
+   "voxels=141": 1
+  },
+  "arm1": 508.9836192523374,
+  "arm2": 494.8140518341719,
+  "width": 137.8332155929726,
+  "thickness": 182.0129431539768,
+  "center_m": [
+   563.4695140164649,
+   1245.14380380598,
+   154.9230861882258
+  ],
+  "yaw_deg": 28.19001610207162,
+  "mean": 0.6609587958121617
+ },
+ {
+  "id": 142,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 204,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 543.1187603192058,
+  "arm2": 422.145892429281,
+  "width": 180.52730044971696,
+  "thickness": 180.36718017521997,
+  "center_m": [
+   948.1366365641011,
+   369.3712580372963,
+   449.33340479754565
+  ],
+  "yaw_deg": -113.39619180219148,
+  "mean": 0.8410397124988944
+ },
+ {
+  "id": 143,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 323,
+  "attempts": 3,
+  "rejections": {
+   "voxels=174": 1,
+   "voxels=121": 1
+  },
+  "arm1": 602.2053571301356,
+  "arm2": 448.8184982051214,
+  "width": 216.98552648156868,
+  "thickness": 222.20863343423403,
+  "center_m": [
+   978.4378619812194,
+   794.6732509648343,
+   530.6135184102625
+  ],
+  "yaw_deg": 72.94368472414635,
+  "mean": 0.6387473486145678
+ },
+ {
+  "id": 144,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 319,
+  "attempts": 4,
+  "rejections": {
+   "voxels=132": 1,
+   "voxels=142": 1,
+   "voxels=140": 1
+  },
+  "arm1": 662.9524389143581,
+  "arm2": 413.15610868988466,
+  "width": 184.47530051655872,
+  "thickness": 243.9721801376559,
+  "center_m": [
+   884.9610352510111,
+   1240.4117873556243,
+   204.61991008775283
+  ],
+  "yaw_deg": 24.01720068506535,
+  "mean": 0.7539164481631371
+ },
+ {
+  "id": 145,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 250,
+  "attempts": 3,
+  "rejections": {
+   "voxels=126": 1,
+   "boundary_contact": 1
+  },
+  "arm1": 618.5753136402102,
+  "arm2": 446.9551811464479,
+  "width": 214.9352448046481,
+  "thickness": 174.25075316404303,
+  "center_m": [
+   665.1779772039636,
+   473.9605632982729,
+   157.20136308579396
+  ],
+  "yaw_deg": 164.1080683233896,
+  "mean": 0.4690443888985902
+ },
+ {
+  "id": 146,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 259,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 547.6784520695237,
+  "arm2": 320.84896936350634,
+  "width": 207.75056103698077,
+  "thickness": 237.01421253612415,
+  "center_m": [
+   1041.981953513492,
+   907.2721993300828,
+   505.715484134913
+  ],
+  "yaw_deg": -39.337367179433606,
+  "mean": 0.708769744104087
+ },
+ {
+  "id": 147,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 188,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 431.0419249850255,
+  "arm2": 414.8267426180061,
+  "width": 174.75934373697584,
+  "thickness": 194.40567221786364,
+  "center_m": [
+   584.7685290277075,
+   592.7144639216357,
+   295.43953032373935
+  ],
+  "yaw_deg": -177.34596652568547,
+  "mean": 0.48664573074900175
+ },
+ {
+  "id": 148,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 231,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 537.4792163596061,
+  "arm2": 467.4611695829246,
+  "width": 191.71132400197956,
+  "thickness": 174.57033559780342,
+  "center_m": [
+   864.3283034165481,
+   416.08464839976637,
+   236.13855223244587
+  ],
+  "yaw_deg": 6.295018084255449,
+  "mean": 0.7571504174534567
+ },
+ {
+  "id": 149,
+  "family": "l_prism",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 225,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 487.0012140349996,
+  "arm2": 406.81265383663697,
+  "width": 184.91162584373106,
+  "thickness": 210.7116731708001,
+  "center_m": [
+   708.0819574707305,
+   572.0311221095847,
+   248.2008341166415
+  ],
+  "yaw_deg": 73.96149322149088,
+  "mean": 0.4930622050280092
+ },
+ {
+  "id": 150,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 270,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 587.0725435110219,
+  "arm2": 460.8709888461717,
+  "width": 210.00951057618278,
+  "thickness": 190.2618694450196,
+  "center_m": [
+   576.9588039423917,
+   758.9272332768867,
+   407.31975381296786
+  ],
+  "yaw_deg": -114.12153590294973,
+  "mean": 0.7746260171441939
+ },
+ {
+  "id": 151,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 205,
+  "attempts": 5,
+  "rejections": {
+   "boundary_contact": 2,
+   "voxels=174": 1,
+   "voxels=159": 1
+  },
+  "arm1": 459.88407565699436,
+  "arm2": 378.2642926340968,
+  "width": 161.544257520568,
+  "thickness": 233.691721588217,
+  "center_m": [
+   466.6873584744343,
+   581.61501299339,
+   488.5120304638858
+  ],
+  "yaw_deg": 146.36777992632236,
+  "mean": 0.4997717114693509
+ },
+ {
+  "id": 152,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 181,
+  "attempts": 3,
+  "rejections": {
+   "voxels=165": 1,
+   "voxels=155": 1
+  },
+  "arm1": 487.2279086450917,
+  "arm2": 444.99970336081276,
+  "width": 134.14168063533913,
+  "thickness": 217.18984126470926,
+  "center_m": [
+   493.3410446450189,
+   897.537384636398,
+   213.90728297308786
+  ],
+  "yaw_deg": 174.07771290447772,
+  "mean": 0.630736808350106
+ },
+ {
+  "id": 153,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 228,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 474.44500217475695,
+  "arm2": 463.94355765575347,
+  "width": 215.6327077748213,
+  "thickness": 184.87492043821052,
+  "center_m": [
+   734.737835245299,
+   600.9869813346367,
+   479.92197302462415
+  ],
+  "yaw_deg": 26.103530187477027,
+  "mean": 0.7944782833868236
+ },
+ {
+  "id": 154,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 193,
+  "attempts": 6,
+  "rejections": {
+   "voxels=161": 1,
+   "voxels=116": 1,
+   "voxels=171": 1,
+   "voxels=169": 1,
+   "voxels=165": 1
+  },
+  "arm1": 571.4338910731052,
+  "arm2": 391.0528255514475,
+  "width": 202.2712785988033,
+  "thickness": 153.0252282634531,
+  "center_m": [
+   933.8955165933829,
+   622.773205050981,
+   304.71463518062603
+  ],
+  "yaw_deg": -102.60006865881157,
+  "mean": 0.6762454978596752
+ },
+ {
+  "id": 155,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 287,
+  "attempts": 3,
+  "rejections": {
+   "voxels=151": 1,
+   "voxels=150": 1
+  },
+  "arm1": 696.7329903376187,
+  "arm2": 464.6290047525513,
+  "width": 194.42133508742535,
+  "thickness": 193.7767168395283,
+  "center_m": [
+   733.9194813550631,
+   550.4287779038858,
+   235.5609270430565
+  ],
+  "yaw_deg": -173.96539128204512,
+  "mean": 0.8321650429470028
+ },
+ {
+  "id": 156,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 266,
+  "attempts": 2,
+  "rejections": {
+   "voxels=118": 1
+  },
+  "arm1": 632.67531526323,
+  "arm2": 364.35619988896786,
+  "width": 192.67312241562857,
+  "thickness": 206.21396762504725,
+  "center_m": [
+   820.989716026241,
+   1038.0791727490607,
+   477.81752514040227
+  ],
+  "yaw_deg": -127.45130610387668,
+  "mean": 0.6154066954826422
+ },
+ {
+  "id": 157,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 272,
+  "attempts": 3,
+  "rejections": {
+   "voxels=161": 1,
+   "voxels=137": 1
+  },
+  "arm1": 466.9666844451125,
+  "arm2": 469.81316356478123,
+  "width": 184.7844655636643,
+  "thickness": 219.7394750113672,
+  "center_m": [
+   501.08631634945687,
+   1135.2778878503923,
+   322.60523855813494
+  ],
+  "yaw_deg": -143.41522582529086,
+  "mean": 0.5249047397035064
+ },
+ {
+  "id": 158,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 275,
+  "attempts": 4,
+  "rejections": {
+   "voxels=172": 1,
+   "boundary_contact": 1,
+   "voxels=143": 1
+  },
+  "arm1": 604.4473434686057,
+  "arm2": 454.29259531606317,
+  "width": 200.8465391297239,
+  "thickness": 185.62713860395635,
+  "center_m": [
+   502.6487147280201,
+   770.6754498152695,
+   547.418056896842
+  ],
+  "yaw_deg": 107.1478384839067,
+  "mean": 0.5226167262311507
+ },
+ {
+  "id": 159,
+  "family": "l_prism",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 201,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 458.6372014100916,
+  "arm2": 488.658951314207,
+  "width": 133.4938382695385,
+  "thickness": 227.5895048792241,
+  "center_m": [
+   345.94797028812394,
+   1015.2595855732229,
+   406.21986137721177
+  ],
+  "yaw_deg": 80.5318745363027,
+  "mean": 0.5653546542285888
+ },
+ {
+  "id": 160,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 232,
+  "attempts": 2,
+  "rejections": {
+   "voxels=174": 1
+  },
+  "arm1": 436.6735561700061,
+  "arm2": 492.3240182116378,
+  "width": 202.40150993310124,
+  "thickness": 201.0036269692974,
+  "center_m": [
+   1054.845574306867,
+   1234.7293967895812,
+   594.435779088821
+  ],
+  "yaw_deg": -179.7180420370701,
+  "mean": 0.5499794794436905
+ },
+ {
+  "id": 161,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 212,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 1,
+   "voxels=138": 1
+  },
+  "arm1": 656.1483795735045,
+  "arm2": 475.89080211445577,
+  "width": 136.2707136814676,
+  "thickness": 188.05311382200105,
+  "center_m": [
+   525.3053579289132,
+   573.7008038754602,
+   220.07702060459087
+  ],
+  "yaw_deg": 147.7833512909682,
+  "mean": 0.7797924999635211
+ },
+ {
+  "id": 162,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 215,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 585.9192692737615,
+  "arm2": 303.3291088936722,
+  "width": 168.5933396205549,
+  "thickness": 212.66939173302836,
+  "center_m": [
+   1191.1145979170458,
+   1279.8767479122077,
+   270.9043428355178
+  ],
+  "yaw_deg": 158.89797241605743,
+  "mean": 0.4702238393831196
+ },
+ {
+  "id": 163,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 320,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 513.5220971671074,
+  "arm2": 444.40707134006107,
+  "width": 218.2056126282545,
+  "thickness": 230.0499080868359,
+  "center_m": [
+   483.96808368078587,
+   712.1475008296543,
+   321.250185285806
+  ],
+  "yaw_deg": -26.218775691996374,
+  "mean": 0.620312153776579
+ },
+ {
+  "id": 164,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 219,
+  "attempts": 3,
+  "rejections": {
+   "voxels=116": 1,
+   "voxels=128": 1
+  },
+  "arm1": 425.39387225929715,
+  "arm2": 426.20173192959874,
+  "width": 193.01864401398268,
+  "thickness": 218.6758064476362,
+  "center_m": [
+   1022.9036079805818,
+   336.9641342345545,
+   281.01510619201645
+  ],
+  "yaw_deg": 99.12968590905167,
+  "mean": 0.46560073011949266
+ },
+ {
+  "id": 165,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 269,
+  "attempts": 2,
+  "rejections": {
+   "voxels=170": 1
+  },
+  "arm1": 695.0755682065502,
+  "arm2": 356.6098628748212,
+  "width": 195.74423750590165,
+  "thickness": 198.23921832811783,
+  "center_m": [
+   1039.5288045374127,
+   536.4176941636842,
+   185.2965901245625
+  ],
+  "yaw_deg": -117.25298348217082,
+  "mean": 0.7845344782069739
+ },
+ {
+  "id": 166,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 190,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 601.8777583131322,
+  "arm2": 452.3177013366775,
+  "width": 180.22345872247763,
+  "thickness": 150.09373674344212,
+  "center_m": [
+   1286.3932196730332,
+   654.2468771397803,
+   570.2834853587264
+  ],
+  "yaw_deg": -32.1175399783574,
+  "mean": 0.4750437276150988
+ },
+ {
+  "id": 167,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 260,
+  "attempts": 2,
+  "rejections": {
+   "voxels=136": 1
+  },
+  "arm1": 604.7653588478503,
+  "arm2": 474.28561159297664,
+  "width": 185.91814901070956,
+  "thickness": 199.8831551903179,
+  "center_m": [
+   1290.9576150423568,
+   731.8258291544614,
+   411.7731834881357
+  ],
+  "yaw_deg": -96.93424498139476,
+  "mean": 0.6978381045854123
+ },
+ {
+  "id": 168,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 273,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 410.2999196752999,
+  "arm2": 498.78300161979666,
+  "width": 199.62816112790372,
+  "thickness": 236.7527109516481,
+  "center_m": [
+   474.1562511366963,
+   1167.3760029066766,
+   247.30578673191997
+  ],
+  "yaw_deg": -77.63524457280673,
+  "mean": 0.5821734778642064
+ },
+ {
+  "id": 169,
+  "family": "l_prism",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 188,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 404.5196593043593,
+  "arm2": 524.4751729976102,
+  "width": 149.84879449526943,
+  "thickness": 214.8929408387309,
+  "center_m": [
+   1074.1954802077394,
+   1197.375920661002,
+   365.4683936883906
+  ],
+  "yaw_deg": -41.06073780189914,
+  "mean": 0.5937209585808167
+ },
+ {
+  "id": 170,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 247,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 519.740238557584,
+  "arm2": 504.5386591616921,
+  "width": 219.27181579545683,
+  "thickness": 176.28204374376054,
+  "center_m": [
+   1054.837812679335,
+   1199.8718713136664,
+   462.79075118659006
+  ],
+  "yaw_deg": 78.36196869293163,
+  "mean": 0.4568391609476056
+ },
+ {
+  "id": 171,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 190,
+  "attempts": 3,
+  "rejections": {
+   "voxels=150": 1,
+   "voxels=151": 1
+  },
+  "arm1": 662.9283928611864,
+  "arm2": 496.33825814526847,
+  "width": 137.86989327130289,
+  "thickness": 160.3285933982852,
+  "center_m": [
+   980.6760929993557,
+   567.4854650947417,
+   417.4893488442229
+  ],
+  "yaw_deg": -144.70790949246114,
+  "mean": 0.6778760791776757
+ },
+ {
+  "id": 172,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 196,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 555.3355626480983,
+  "arm2": 485.335314184033,
+  "width": 156.561060747988,
+  "thickness": 193.57708508134678,
+  "center_m": [
+   456.8641473207192,
+   554.223578707971,
+   368.422709961853
+  ],
+  "yaw_deg": -46.455618438970376,
+  "mean": 0.6026498961165155
+ },
+ {
+  "id": 173,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 253,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 673.4104955202528,
+  "arm2": 518.9660598432201,
+  "width": 137.55794986718234,
+  "thickness": 223.58860929363323,
+  "center_m": [
+   1144.4612461810498,
+   1055.5041406033024,
+   219.86727431322547
+  ],
+  "yaw_deg": -102.71000820530057,
+  "mean": 0.5034822636041324
+ },
+ {
+  "id": 174,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 270,
+  "attempts": 3,
+  "rejections": {
+   "voxels=125": 1,
+   "voxels=151": 1
+  },
+  "arm1": 498.53203051502294,
+  "arm2": 412.32313367269404,
+  "width": 214.69932289519005,
+  "thickness": 219.17884545666874,
+  "center_m": [
+   512.5250162994635,
+   347.0121218455941,
+   322.26321370689993
+  ],
+  "yaw_deg": -33.93526208774379,
+  "mean": 0.731384157188097
+ },
+ {
+  "id": 175,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 218,
+  "attempts": 4,
+  "rejections": {
+   "voxels=145": 1,
+   "voxels=158": 1,
+   "voxels=121": 1
+  },
+  "arm1": 616.258104429943,
+  "arm2": 358.84830228588777,
+  "width": 170.14162966475055,
+  "thickness": 189.33741154452935,
+  "center_m": [
+   983.3366288126791,
+   929.0533291867365,
+   548.9573802569969
+  ],
+  "yaw_deg": -42.76236818733267,
+  "mean": 0.6580218134705501
+ },
+ {
+  "id": 176,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 227,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 531.5503600248535,
+  "arm2": 437.47442915125293,
+  "width": 187.4473196333301,
+  "thickness": 188.1875629690324,
+  "center_m": [
+   438.7385159371792,
+   860.6813947369096,
+   585.6350693387164
+  ],
+  "yaw_deg": -14.52586760089752,
+  "mean": 0.6671131690119247
+ },
+ {
+  "id": 177,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 184,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "arm1": 503.25645639373363,
+  "arm2": 414.58436366920097,
+  "width": 208.1757258381583,
+  "thickness": 155.67186891457908,
+  "center_m": [
+   644.9216416145746,
+   894.7370310165343,
+   400.11606411796487
+  ],
+  "yaw_deg": -54.16985201964012,
+  "mean": 0.49295911016659827
+ },
+ {
+  "id": 178,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 185,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 472.106791896169,
+  "arm2": 323.05303539481395,
+  "width": 210.688182904469,
+  "thickness": 191.18025511603196,
+  "center_m": [
+   1001.7463510203672,
+   967.7602687827562,
+   474.1475929922321
+  ],
+  "yaw_deg": 21.35917531798584,
+  "mean": 0.6886868374453783
+ },
+ {
+  "id": 179,
+  "family": "l_prism",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 195,
+  "attempts": 2,
+  "rejections": {
+   "voxels=156": 1
+  },
+  "arm1": 418.851968286802,
+  "arm2": 387.7004282084834,
+  "width": 200.80225131978065,
+  "thickness": 196.77851766440637,
+  "center_m": [
+   619.7373082378053,
+   400.89554923695675,
+   499.79893352680165
+  ],
+  "yaw_deg": -76.40652719380053,
+  "mean": 0.620476221667029
+ },
+ {
+  "id": 180,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 200,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "arm1": 678.0507900415832,
+  "arm2": 495.3100021757756,
+  "width": 124.37118812799588,
+  "thickness": 202.83530629932847,
+  "center_m": [
+   961.768312744308,
+   852.2632980191174,
+   534.4538474960833
+  ],
+  "yaw_deg": -172.30317233986608,
+  "core_fraction_target": 0.48824159203432616,
+  "core_fraction": 0.09,
+  "mean": 0.5738985682670644
+ },
+ {
+  "id": 181,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 197,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 613.4404690382972,
+  "arm2": 479.68522809827704,
+  "width": 207.94628471997638,
+  "thickness": 133.77006196668427,
+  "center_m": [
+   1253.9493599709676,
+   946.0133258902232,
+   404.40935500466435
+  ],
+  "yaw_deg": 84.26900633791193,
+  "core_fraction_target": 0.3691778586717095,
+  "core_fraction": 0.13705583756345177,
+  "mean": 0.6958372509660276
+ },
+ {
+  "id": 182,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 185,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 633.7535760088828,
+  "arm2": 436.78443900630543,
+  "width": 164.56633364723044,
+  "thickness": 154.31226832832982,
+  "center_m": [
+   698.8544385331678,
+   666.8527225468764,
+   440.0720572865118
+  ],
+  "yaw_deg": 137.5628761677732,
+  "core_fraction_target": 0.4423134476852361,
+  "core_fraction": 0.1945945945945946,
+  "mean": 0.6985532256796726
+ },
+ {
+  "id": 183,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 278,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "arm1": 566.7692670040221,
+  "arm2": 312.575267853005,
+  "width": 215.567040414798,
+  "thickness": 234.17358932934383,
+  "center_m": [
+   588.7646744153715,
+   1013.951431192667,
+   395.4493734979593
+  ],
+  "yaw_deg": 108.50901928777203,
+  "core_fraction_target": 0.36911040967911357,
+  "core_fraction": 0.28776978417266186,
+  "mean": 0.7466496073506199
+ },
+ {
+  "id": 184,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 337,
+  "attempts": 2,
+  "rejections": {
+   "voxels=165": 1
+  },
+  "arm1": 560.2833775176598,
+  "arm2": 485.40124836978134,
+  "width": 209.18450914884033,
+  "thickness": 235.51473523691067,
+  "center_m": [
+   572.1214014359091,
+   515.3137087973721,
+   592.960184193849
+  ],
+  "yaw_deg": -123.05995015428353,
+  "core_fraction_target": 0.3534711760862111,
+  "core_fraction": 0.32344213649851633,
+  "mean": 0.5308323866611453
+ },
+ {
+  "id": 185,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 196,
+  "attempts": 2,
+  "rejections": {
+   "voxels=140": 1
+  },
+  "arm1": 496.40678214985604,
+  "arm2": 337.98807785791854,
+  "width": 202.0834262166096,
+  "thickness": 191.12868862826264,
+  "center_m": [
+   397.3705132801342,
+   845.8351219160559,
+   443.46625501521237
+  ],
+  "yaw_deg": -96.67248214229244,
+  "core_fraction_target": 0.4020325389031049,
+  "core_fraction": 0.2193877551020408,
+  "mean": 0.4572553092164904
+ },
+ {
+  "id": 186,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 230,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 442.2338766546641,
+  "arm2": 538.9069746384278,
+  "width": 213.01045711500444,
+  "thickness": 174.44384046629395,
+  "center_m": [
+   561.4941222776088,
+   1169.699269473585,
+   534.5549705110868
+  ],
+  "yaw_deg": -129.66248062789722,
+  "core_fraction_target": 0.42451713353323883,
+  "core_fraction": 0.25217391304347825,
+  "mean": 0.8176515498977769
+ },
+ {
+  "id": 187,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 258,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 674.0584109532767,
+  "arm2": 470.8423754976367,
+  "width": 147.44999032723712,
+  "thickness": 224.46233700293973,
+  "center_m": [
+   481.0014453681805,
+   767.4221644545062,
+   185.69460786254854
+  ],
+  "yaw_deg": 44.118927162735254,
+  "core_fraction_target": 0.3152512161981719,
+  "core_fraction": 0.2558139534883721,
+  "mean": 0.6388274270820433
+ },
+ {
+  "id": 188,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 203,
+  "attempts": 2,
+  "rejections": {
+   "voxels=149": 1
+  },
+  "arm1": 498.6488148665435,
+  "arm2": 391.4739285946627,
+  "width": 169.48936729170515,
+  "thickness": 208.142497659608,
+  "center_m": [
+   549.325745975058,
+   751.3629563027457,
+   320.2487499922454
+  ],
+  "yaw_deg": 117.9474043304372,
+  "core_fraction_target": 0.4284989706200145,
+  "core_fraction": 0.22167487684729065,
+  "mean": 0.4997037941568125
+ },
+ {
+  "id": 189,
+  "family": "l_prism",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 251,
+  "attempts": 4,
+  "rejections": {
+   "voxels=173": 1,
+   "voxels=174": 1,
+   "boundary_contact": 1
+  },
+  "arm1": 521.8032417074676,
+  "arm2": 395.0277687914224,
+  "width": 198.44440000775347,
+  "thickness": 236.9045480253749,
+  "center_m": [
+   511.364967124362,
+   1125.1490808837607,
+   493.83768274489086
+  ],
+  "yaw_deg": 63.71390879425329,
+  "core_fraction_target": 0.3796555033173511,
+  "core_fraction": 0.24302788844621515,
+  "mean": 0.7519601926263029
+ },
+ {
+  "id": 190,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 206,
+  "attempts": 5,
+  "rejections": {
+   "voxels=150": 1,
+   "voxels=135": 1,
+   "voxels=105": 1,
+   "voxels=111": 1
+  },
+  "arm1": 619.2114030121821,
+  "arm2": 535.9492166783868,
+  "width": 207.06633162124288,
+  "thickness": 129.15091475999762,
+  "center_m": [
+   1081.349426152454,
+   720.2130850503316,
+   570.689137591177
+  ],
+  "yaw_deg": 86.93917885160445,
+  "cycles": 1.581771021276443,
+  "phase": 1.2756197856016225,
+  "mean": 0.47084830577345627
+ },
+ {
+  "id": 191,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 227,
+  "attempts": 2,
+  "rejections": {
+   "voxels=122": 1
+  },
+  "arm1": 652.3845886580336,
+  "arm2": 384.56725377593284,
+  "width": 144.95856517538743,
+  "thickness": 222.58108291150535,
+  "center_m": [
+   517.4233231999224,
+   840.5195073042902,
+   265.39459112125496
+  ],
+  "yaw_deg": 53.214523948275506,
+  "cycles": 2.179389790979456,
+  "phase": 4.686660152116031,
+  "mean": 0.47182397180728186
+ },
+ {
+  "id": 192,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 249,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 423.1363824316186,
+  "arm2": 520.5702584151948,
+  "width": 183.7694355503795,
+  "thickness": 214.2546688384624,
+  "center_m": [
+   1267.5707641811941,
+   411.68079696858746,
+   238.52828718700374
+  ],
+  "yaw_deg": 31.334825291124876,
+  "cycles": 2.2698672364412635,
+  "phase": 1.959976182935418,
+  "mean": 0.4768175421355683
+ },
+ {
+  "id": 193,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 337,
+  "attempts": 2,
+  "rejections": {
+   "voxels=120": 1
+  },
+  "arm1": 636.0319173690157,
+  "arm2": 499.8288648276342,
+  "width": 174.7909784059773,
+  "thickness": 249.13867209640983,
+  "center_m": [
+   1041.5416554439516,
+   840.140632692145,
+   302.4634477773003
+  ],
+  "yaw_deg": 101.66224073882188,
+  "cycles": 1.9617243798708133,
+  "phase": 1.980790029849947,
+  "mean": 0.4931057622418494
+ },
+ {
+  "id": 194,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 189,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 605.6382169623125,
+  "arm2": 517.9570307177592,
+  "width": 192.3067125312362,
+  "thickness": 140.7045257958019,
+  "center_m": [
+   615.7567776257802,
+   1256.8146160328463,
+   459.9355486333836
+  ],
+  "yaw_deg": 54.99709606507421,
+  "cycles": 1.8577541651534029,
+  "phase": 5.548447469456406,
+  "mean": 0.5355042450895207
+ },
+ {
+  "id": 195,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 202,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 500.5320501641363,
+  "arm2": 493.6902032581812,
+  "width": 187.67150432099433,
+  "thickness": 165.67130223671757,
+  "center_m": [
+   494.87317194859895,
+   1027.701402070034,
+   164.08197823824003
+  ],
+  "yaw_deg": -90.38960906662781,
+  "cycles": 2.4855674351883854,
+  "phase": 1.3052314199119424,
+  "mean": 0.6202360718319977
+ },
+ {
+  "id": 196,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 234,
+  "attempts": 3,
+  "rejections": {
+   "voxels=117": 1,
+   "voxels=159": 1
+  },
+  "arm1": 459.7994377037409,
+  "arm2": 466.21274498863966,
+  "width": 204.36175125085904,
+  "thickness": 196.73157796671802,
+  "center_m": [
+   388.3997816455948,
+   1139.229686880199,
+   236.3640850171126
+  ],
+  "yaw_deg": -13.504899136162582,
+  "cycles": 1.9887509827556884,
+  "phase": 3.6093196116867636,
+  "mean": 0.7063325391736732
+ },
+ {
+  "id": 197,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 255,
+  "attempts": 2,
+  "rejections": {
+   "voxels=164": 1
+  },
+  "arm1": 606.2773271929551,
+  "arm2": 398.9065095405405,
+  "width": 167.1487218861062,
+  "thickness": 215.2606084552432,
+  "center_m": [
+   632.1117849548097,
+   875.7839102258206,
+   530.0868846049738
+  ],
+  "yaw_deg": -88.7037651968845,
+  "cycles": 1.8629935587971493,
+  "phase": 4.548733400021061,
+  "mean": 0.6278296027482078
+ },
+ {
+  "id": 198,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 370,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 1,
+   "voxels=141": 1
+  },
+  "arm1": 638.6003238638191,
+  "arm2": 523.8705056308855,
+  "width": 189.21574413638473,
+  "thickness": 248.9173936834156,
+  "center_m": [
+   846.4426941262878,
+   554.0354619330865,
+   517.0975331386758
+  ],
+  "yaw_deg": -166.34707095171464,
+  "cycles": 1.7630493612099292,
+  "phase": 4.908659874382141,
+  "mean": 0.6454346906550493
+ },
+ {
+  "id": 199,
+  "family": "l_prism",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 293,
+  "attempts": 6,
+  "rejections": {
+   "voxels=166": 1,
+   "voxels=140": 1,
+   "voxels=178": 1,
+   "voxels=177": 1,
+   "voxels=122": 1
+  },
+  "arm1": 670.1590386918608,
+  "arm2": 466.21028201555697,
+  "width": 160.7256376530464,
+  "thickness": 223.6068411478157,
+  "center_m": [
+   814.5495370808603,
+   1195.657462761476,
+   242.5906816406581
+  ],
+  "yaw_deg": 153.2343177499127,
+  "cycles": 2.207931667446769,
+  "phase": 5.2881747789429125,
+  "mean": 0.5919008695898551
+ },
+ {
+  "id": 200,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 261,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 661.727148135406,
+  "arm2": 326.8742189063412,
+  "width": 186.8011124784453,
+  "thickness": 219.3147465867769,
+  "center_m": [
+   1048.846602543173,
+   470.73983611571197,
+   550.5185599081042
+  ],
+  "yaw_deg": -117.77089669234267,
+  "n_patches": 3,
+  "mean": 0.7463137315163315
+ },
+ {
+  "id": 201,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 191,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 473.8821776939882,
+  "arm2": 432.204302209169,
+  "width": 153.94009183207248,
+  "thickness": 183.02389918735648,
+  "center_m": [
+   729.2769366332343,
+   607.4690365000649,
+   405.62326894948933
+  ],
+  "yaw_deg": -42.002105687578684,
+  "n_patches": 3,
+  "mean": 0.7732133872938762
+ },
+ {
+  "id": 202,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 193,
+  "attempts": 3,
+  "rejections": {
+   "voxels=166": 1,
+   "boundary_contact": 1
+  },
+  "arm1": 660.8009167744353,
+  "arm2": 335.2644562602431,
+  "width": 203.83830848372278,
+  "thickness": 131.17364561334196,
+  "center_m": [
+   967.3106558298604,
+   611.4850526406931,
+   275.9596749008504
+  ],
+  "yaw_deg": -66.58852615578755,
+  "n_patches": 5,
+  "mean": 0.5152535587082921
+ },
+ {
+  "id": 203,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 203,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 617.6171581010846,
+  "arm2": 374.6492353018118,
+  "width": 143.5311010722668,
+  "thickness": 211.51770918166164,
+  "center_m": [
+   440.5549688789861,
+   1075.0593964085879,
+   407.70487027122596
+  ],
+  "yaw_deg": 66.30351121470603,
+  "n_patches": 3,
+  "mean": 0.6165032695972559
+ },
+ {
+  "id": 204,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 383,
+  "attempts": 4,
+  "rejections": {
+   "voxels=123": 1,
+   "boundary_contact": 1,
+   "voxels=171": 1
+  },
+  "arm1": 688.8783530446301,
+  "arm2": 540.8504456056936,
+  "width": 214.39377172244332,
+  "thickness": 218.69752880233452,
+  "center_m": [
+   486.50707122088806,
+   650.8234318160221,
+   471.4879251895197
+  ],
+  "yaw_deg": -8.109957554185916,
+  "n_patches": 6,
+  "mean": 0.75424884519903
+ },
+ {
+  "id": 205,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 233,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 568.7663894865575,
+  "arm2": 442.1799894798758,
+  "width": 180.19924877145303,
+  "thickness": 190.5913473496372,
+  "center_m": [
+   804.1489556010109,
+   543.1827830675355,
+   354.17354243331545
+  ],
+  "yaw_deg": 80.3228140087525,
+  "n_patches": 4,
+  "mean": 0.7408335411894067
+ },
+ {
+  "id": 206,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 196,
+  "attempts": 1,
+  "rejections": {},
+  "arm1": 696.6711784018974,
+  "arm2": 309.6003934139998,
+  "width": 121.29394042531929,
+  "thickness": 200.15871855926522,
+  "center_m": [
+   1008.6503646931056,
+   1121.6799464545302,
+   223.35348206301688
+  ],
+  "yaw_deg": 1.2708821902834255,
+  "n_patches": 5,
+  "mean": 0.844929832833714
+ },
+ {
+  "id": 207,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 215,
+  "attempts": 9,
+  "rejections": {
+   "voxels=129": 1,
+   "voxels=126": 2,
+   "voxels=118": 1,
+   "voxels=132": 1,
+   "voxels=121": 1,
+   "voxels=150": 1,
+   "voxels=151": 1
+  },
+  "arm1": 446.09223050207595,
+  "arm2": 312.57870329142014,
+  "width": 200.2127002436937,
+  "thickness": 234.52617213763335,
+  "center_m": [
+   480.4616433828504,
+   1172.5211523646017,
+   382.93298869034174
+  ],
+  "yaw_deg": -76.88998897825229,
+  "n_patches": 5,
+  "mean": 0.8300580609508077
+ },
+ {
+  "id": 208,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 230,
+  "attempts": 2,
+  "rejections": {
+   "voxels=141": 1
+  },
+  "arm1": 477.36025955151484,
+  "arm2": 414.6994695042294,
+  "width": 215.36681149528945,
+  "thickness": 179.8016611216715,
+  "center_m": [
+   1250.1935254147093,
+   483.58132115295984,
+   448.73087668552677
+  ],
+  "yaw_deg": -101.92837104503822,
+  "n_patches": 3,
+  "mean": 0.7847419089918155
+ },
+ {
+  "id": 209,
+  "family": "l_prism",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 188,
+  "attempts": 3,
+  "rejections": {
+   "voxels=123": 1,
+   "boundary_contact": 1
+  },
+  "arm1": 460.202551634653,
+  "arm2": 334.7769628655376,
+  "width": 158.90077910667426,
+  "thickness": 245.78199173709106,
+  "center_m": [
+   619.2630816213507,
+   981.6825743360725,
+   202.13885772093528
+  ],
+  "yaw_deg": 93.80050060418205,
+  "n_patches": 3,
+  "mean": 0.5981713245115323
+ },
+ {
+  "id": 210,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 206,
+  "attempts": 2,
+  "rejections": {
+   "voxels=168": 1
+  },
+  "block_length": 363.60016752363583,
+  "block_width": 123.71228795982698,
+  "block_thickness": 199.72803728070863,
+  "strike_offset": 230.91534300340572,
+  "lateral_offset": 94.23498264069187,
+  "center_m": [
+   836.1457639523054,
+   522.3852026428348,
+   571.1272384391548
+  ],
+  "yaw_deg": -147.1432453038642,
+  "mean": 0.7384265846979594
+ },
+ {
+  "id": 211,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 222,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 2
+  },
+  "block_length": 349.43000266714716,
+  "block_width": 134.8473830168479,
+  "block_thickness": 206.85717303025774,
+  "strike_offset": 246.93856432950275,
+  "lateral_offset": 101.81995339524298,
+  "center_m": [
+   961.4968152368446,
+   1020.1374206698752,
+   315.14884289084506
+  ],
+  "yaw_deg": 53.478051475336784,
+  "mean": 0.686339244389131
+ },
+ {
+  "id": 212,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 284,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "block_length": 316.1397077892244,
+  "block_width": 174.9653249864166,
+  "block_thickness": 228.82376738482617,
+  "strike_offset": 236.43469325944062,
+  "lateral_offset": 97.36882752947712,
+  "center_m": [
+   927.8016390745565,
+   1299.9321729307262,
+   586.981169996709
+  ],
+  "yaw_deg": -30.491746815423404,
+  "mean": 0.5422241170028983
+ },
+ {
+  "id": 213,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 234,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 290.34756468080036,
+  "block_width": 164.36093091589828,
+  "block_thickness": 221.15366134540687,
+  "strike_offset": 224.38336431213676,
+  "lateral_offset": 103.73358799482546,
+  "center_m": [
+   831.5103571531512,
+   823.9703724935072,
+   289.8555040418088
+  ],
+  "yaw_deg": -70.8087952241248,
+  "mean": 0.5140554869739045
+ },
+ {
+  "id": 214,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 206,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 365.383229258845,
+  "block_width": 171.84616073234542,
+  "block_thickness": 144.94147444537793,
+  "strike_offset": 279.28119557556226,
+  "lateral_offset": 112.70476608867409,
+  "center_m": [
+   740.0964437655105,
+   629.4468223684141,
+   342.3629053283728
+  ],
+  "yaw_deg": 108.95116238603019,
+  "mean": 0.5960988341591456
+ },
+ {
+  "id": 215,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 181,
+  "attempts": 2,
+  "rejections": {
+   "voxels=138": 1
+  },
+  "block_length": 347.5410495383415,
+  "block_width": 168.10203148592734,
+  "block_thickness": 136.51293164587875,
+  "strike_offset": 209.05195537061655,
+  "lateral_offset": 99.93671693504965,
+  "center_m": [
+   1179.843590423211,
+   499.9013580671368,
+   274.39232541419
+  ],
+  "yaw_deg": 24.70165656795572,
+  "mean": 0.7092848401094618
+ },
+ {
+  "id": 216,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 293,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 317.6640832586236,
+  "block_width": 175.20219981257762,
+  "block_thickness": 222.37174903562578,
+  "strike_offset": 252.2042910104771,
+  "lateral_offset": 125.31440634802144,
+  "center_m": [
+   924.5029261113555,
+   1215.5782287410175,
+   334.2357106948032
+  ],
+  "yaw_deg": 121.07471787830188,
+  "mean": 0.5308387512498777
+ },
+ {
+  "id": 217,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 188,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 300.1978038530103,
+  "block_width": 152.24943494936772,
+  "block_thickness": 187.32932461397795,
+  "strike_offset": 218.29542686618552,
+  "lateral_offset": 81.73855912227455,
+  "center_m": [
+   561.4108913725714,
+   562.0008469232624,
+   312.2375017537371
+  ],
+  "yaw_deg": -101.73369450855883,
+  "mean": 0.7104851437324092
+ },
+ {
+  "id": 218,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 183,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 381.65727555094156,
+  "block_width": 154.9699541025223,
+  "block_thickness": 133.6634497512026,
+  "strike_offset": 234.61798348806863,
+  "lateral_offset": 120.31738898726816,
+  "center_m": [
+   502.45062070861485,
+   631.3538606309693,
+   586.9901284379835
+  ],
+  "yaw_deg": -152.4126417384295,
+  "mean": 0.6573507552694827
+ },
+ {
+  "id": 219,
+  "family": "en_echelon",
+  "law": 1,
+  "law_name": "local_gradient",
+  "n_voxels": 185,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "block_length": 254.01405276169137,
+  "block_width": 167.89189464693806,
+  "block_thickness": 205.92009375947498,
+  "strike_offset": 177.5436893148499,
+  "lateral_offset": 88.54574323166035,
+  "center_m": [
+   409.98381190014163,
+   1003.7591146985641,
+   533.854730810702
+  ],
+  "yaw_deg": 85.44660433299683,
+  "mean": 0.7813518139283364
+ },
+ {
+  "id": 220,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 211,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 260.1203875540258,
+  "block_width": 177.12250843681255,
+  "block_thickness": 190.01670774314488,
+  "strike_offset": 157.96857530621446,
+  "lateral_offset": 134.5460244666119,
+  "center_m": [
+   494.37405233921004,
+   362.56293637379565,
+   408.14997139045767
+  ],
+  "yaw_deg": 96.60077693856307,
+  "mean": 0.6187678333592795
+ },
+ {
+  "id": 221,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 264,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 341.947397280632,
+  "block_width": 199.9215019740974,
+  "block_thickness": 169.31273650464172,
+  "strike_offset": 225.83679714796344,
+  "lateral_offset": 132.8437319756791,
+  "center_m": [
+   961.1765999409153,
+   1064.6063951366798,
+   439.92800599101236
+  ],
+  "yaw_deg": 69.87312255394129,
+  "mean": 0.5200463567245114
+ },
+ {
+  "id": 222,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 199,
+  "attempts": 6,
+  "rejections": {
+   "voxels=168": 1,
+   "boundary_contact": 2,
+   "voxels=179": 1,
+   "voxels=138": 1
+  },
+  "block_length": 353.24642790736505,
+  "block_width": 175.49962326947,
+  "block_thickness": 143.12117022380662,
+  "strike_offset": 229.6010604551057,
+  "lateral_offset": 121.99093646911625,
+  "center_m": [
+   999.9477835423659,
+   923.649309447155,
+   210.90939078922003
+  ],
+  "yaw_deg": 153.09928445381803,
+  "mean": 0.6764899229786079
+ },
+ {
+  "id": 223,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 180,
+  "attempts": 3,
+  "rejections": {
+   "voxels=155": 1,
+   "voxels=113": 1
+  },
+  "block_length": 272.04805908590396,
+  "block_width": 199.84467809935555,
+  "block_thickness": 151.65055367400925,
+  "strike_offset": 190.16755347625252,
+  "lateral_offset": 109.84473121074674,
+  "center_m": [
+   776.8898348610653,
+   350.5978749317372,
+   357.019094364568
+  ],
+  "yaw_deg": 132.33541673705682,
+  "mean": 0.6403817875269442
+ },
+ {
+  "id": 224,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 194,
+  "attempts": 4,
+  "rejections": {
+   "boundary_contact": 2,
+   "voxels=113": 1
+  },
+  "block_length": 285.92409701583216,
+  "block_width": 142.53300477914553,
+  "block_thickness": 216.02902380327276,
+  "strike_offset": 178.98757359300689,
+  "lateral_offset": 100.39594247616091,
+  "center_m": [
+   636.0731694957842,
+   436.9812817323184,
+   300.3197729300564
+  ],
+  "yaw_deg": 128.93614629867693,
+  "mean": 0.5312993696477823
+ },
+ {
+  "id": 225,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 200,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "block_length": 368.46501108283553,
+  "block_width": 127.02206184810416,
+  "block_thickness": 186.26589564596162,
+  "strike_offset": 222.87344644837611,
+  "lateral_offset": 83.8683759050422,
+  "center_m": [
+   976.1207563810821,
+   1189.5461930683318,
+   238.7622566824485
+  ],
+  "yaw_deg": -15.210550310280393,
+  "mean": 0.7964611511773892
+ },
+ {
+  "id": 226,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 299,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 372.8693658555128,
+  "block_width": 181.05082921379378,
+  "block_thickness": 173.61959312520514,
+  "strike_offset": 265.34939597998493,
+  "lateral_offset": 116.08350974988308,
+  "center_m": [
+   1102.9281302670565,
+   763.4986064024488,
+   300.8125509705137
+  ],
+  "yaw_deg": -125.059434564755,
+  "mean": 0.783989367028705
+ },
+ {
+  "id": 227,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 232,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 349.776492984302,
+  "block_width": 176.53099708728627,
+  "block_thickness": 167.76458553616976,
+  "strike_offset": 247.41174136426585,
+  "lateral_offset": 130.16574769671536,
+  "center_m": [
+   815.240185843955,
+   1209.962691717832,
+   206.5560875903426
+  ],
+  "yaw_deg": -34.71572188905806,
+  "mean": 0.6430113747337592
+ },
+ {
+  "id": 228,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 182,
+  "attempts": 2,
+  "rejections": {
+   "voxels=165": 1
+  },
+  "block_length": 354.19412016253625,
+  "block_width": 142.94167895293654,
+  "block_thickness": 184.6163187898407,
+  "strike_offset": 214.29884910526718,
+  "lateral_offset": 89.46537144968676,
+  "center_m": [
+   341.4147348364534,
+   1034.3976416741148,
+   282.51693785419695
+  ],
+  "yaw_deg": -116.05710440258933,
+  "mean": 0.7961907235000356
+ },
+ {
+  "id": 229,
+  "family": "en_echelon",
+  "law": 2,
+  "law_name": "single_peak",
+  "n_voxels": 349,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 2
+  },
+  "block_length": 419.2887644141232,
+  "block_width": 152.4793944548847,
+  "block_thickness": 232.3834336078143,
+  "strike_offset": 254.66460077463546,
+  "lateral_offset": 116.09571113068988,
+  "center_m": [
+   779.0324291714933,
+   855.3203189335006,
+   563.2199771196845
+  ],
+  "yaw_deg": 60.43519825197804,
+  "mean": 0.8228654553314589
+ },
+ {
+  "id": 230,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 259,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 371.6922856374224,
+  "block_width": 134.21454235618793,
+  "block_thickness": 232.30676249873096,
+  "strike_offset": 275.96333526298105,
+  "lateral_offset": 90.19420152267475,
+  "center_m": [
+   638.1204143593159,
+   379.1735072649036,
+   260.2961806013162
+  ],
+  "yaw_deg": 6.175518351643611,
+  "mean": 0.7473356710157395
+ },
+ {
+  "id": 231,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 261,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 355.20794740464504,
+  "block_width": 136.1728598051912,
+  "block_thickness": 239.87278849019043,
+  "strike_offset": 242.62842264831505,
+  "lateral_offset": 72.21267148068341,
+  "center_m": [
+   743.4968865561395,
+   776.8834278204704,
+   280.3889022474412
+  ],
+  "yaw_deg": 91.3640591783898,
+  "mean": 0.7118200985353003
+ },
+ {
+  "id": 232,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 183,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 400.95395586358745,
+  "block_width": 137.68300272517646,
+  "block_thickness": 157.7267679927064,
+  "strike_offset": 295.46253554067084,
+  "lateral_offset": 75.78163687981512,
+  "center_m": [
+   1228.6468830515087,
+   872.2596480092922,
+   419.01702120020775
+  ],
+  "yaw_deg": -72.42480511686435,
+  "mean": 0.6637896678173809
+ },
+ {
+  "id": 233,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 197,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 344.99211736071226,
+  "block_width": 149.24362183931677,
+  "block_thickness": 168.19608624869812,
+  "strike_offset": 274.78587245526876,
+  "lateral_offset": 104.13830368659234,
+  "center_m": [
+   1108.4576070799778,
+   597.460262370502,
+   499.96788102223036
+  ],
+  "yaw_deg": 1.643778149854813,
+  "mean": 0.668616137232869
+ },
+ {
+  "id": 234,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 248,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 391.2502262710679,
+  "block_width": 158.99609596053605,
+  "block_thickness": 187.97442078210815,
+  "strike_offset": 278.2584877672103,
+  "lateral_offset": 82.7849491585309,
+  "center_m": [
+   684.5752118715166,
+   851.2630082437571,
+   484.03357391175297
+  ],
+  "yaw_deg": 158.72672598785198,
+  "mean": 0.4617380771614778
+ },
+ {
+  "id": 235,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 228,
+  "attempts": 5,
+  "rejections": {
+   "voxels=154": 1,
+   "voxels=171": 1,
+   "boundary_contact": 1,
+   "voxels=146": 1
+  },
+  "block_length": 346.18036258866994,
+  "block_width": 193.4676662982165,
+  "block_thickness": 177.02489218698855,
+  "strike_offset": 246.26362091149298,
+  "lateral_offset": 130.1232537888153,
+  "center_m": [
+   1290.526947202109,
+   936.7074250425995,
+   170.00385402229497
+  ],
+  "yaw_deg": 87.82004626298628,
+  "mean": 0.7793309000171738
+ },
+ {
+  "id": 236,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 185,
+  "attempts": 3,
+  "rejections": {
+   "voxels=159": 1,
+   "voxels=166": 1
+  },
+  "block_length": 262.44162524747026,
+  "block_width": 143.61795707844706,
+  "block_thickness": 216.282052188202,
+  "strike_offset": 197.955275630304,
+  "lateral_offset": 102.32928273419729,
+  "center_m": [
+   616.1351679055109,
+   419.0919548965892,
+   341.2961308449874
+  ],
+  "yaw_deg": -69.46699615826981,
+  "mean": 0.7880659785755026
+ },
+ {
+  "id": 237,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 239,
+  "attempts": 4,
+  "rejections": {
+   "boundary_contact": 3
+  },
+  "block_length": 398.1686458251266,
+  "block_width": 160.15131209216293,
+  "block_thickness": 171.2612062404707,
+  "strike_offset": 277.2024694861554,
+  "lateral_offset": 85.48515947946836,
+  "center_m": [
+   443.99498859331413,
+   687.1660620091012,
+   561.4140930073063
+  ],
+  "yaw_deg": 50.057364871179324,
+  "mean": 0.5380254500427303
+ },
+ {
+  "id": 238,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 213,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 273.01345372237137,
+  "block_width": 136.22942432605532,
+  "block_thickness": 234.21354354360466,
+  "strike_offset": 217.45692945516552,
+  "lateral_offset": 99.39475374793554,
+  "center_m": [
+   366.41226721013413,
+   813.4350737376918,
+   182.1688506045917
+  ],
+  "yaw_deg": -120.64751313516382,
+  "mean": 0.6776907323992529
+ },
+ {
+  "id": 239,
+  "family": "en_echelon",
+  "law": 3,
+  "law_name": "double_peak",
+  "n_voxels": 234,
+  "attempts": 5,
+  "rejections": {
+   "boundary_contact": 1,
+   "voxels=100": 1,
+   "voxels=121": 1,
+   "voxels=144": 1
+  },
+  "block_length": 401.94511043747167,
+  "block_width": 199.88400350037608,
+  "block_thickness": 139.87781276815485,
+  "strike_offset": 320.4603953421338,
+  "lateral_offset": 104.6996741457575,
+  "center_m": [
+   1022.7529056118117,
+   623.3083702336592,
+   193.48738197047857
+  ],
+  "yaw_deg": 149.3128817540728,
+  "mean": 0.8296176670614919
+ },
+ {
+  "id": 240,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 290,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 347.5314211114269,
+  "block_width": 190.9076174326137,
+  "block_thickness": 172.44581909457776,
+  "strike_offset": 243.97223530684872,
+  "lateral_offset": 131.0755408842501,
+  "center_m": [
+   538.6844251706463,
+   979.2626992959102,
+   545.0207970423808
+  ],
+  "yaw_deg": -69.03639795740565,
+  "mean": 0.7812095664549776
+ },
+ {
+  "id": 241,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 262,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 345.0989004495489,
+  "block_width": 173.82094003053385,
+  "block_thickness": 193.82109269834268,
+  "strike_offset": 235.1202530511355,
+  "lateral_offset": 108.51637471381868,
+  "center_m": [
+   477.0963520602886,
+   1013.5715892507166,
+   514.0002969913213
+  ],
+  "yaw_deg": 171.22173120217727,
+  "mean": 0.6153869054905567
+ },
+ {
+  "id": 242,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 264,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 335.1318868341904,
+  "block_width": 179.44185472832055,
+  "block_thickness": 187.38043483765722,
+  "strike_offset": 225.9163588445577,
+  "lateral_offset": 104.96007306729112,
+  "center_m": [
+   426.6137449588657,
+   639.3703318429378,
+   512.2742720470181
+  ],
+  "yaw_deg": -114.50971890224714,
+  "mean": 0.8112859249300388
+ },
+ {
+  "id": 243,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 388,
+  "attempts": 2,
+  "rejections": {
+   "voxels=171": 1
+  },
+  "block_length": 361.96442407807314,
+  "block_width": 194.9908910352269,
+  "block_thickness": 238.99902996690878,
+  "strike_offset": 223.76529112343158,
+  "lateral_offset": 132.68920585181135,
+  "center_m": [
+   519.0510403143942,
+   544.0689751644761,
+   277.51162316731336
+  ],
+  "yaw_deg": -164.31505401358513,
+  "mean": 0.6165903466176181
+ },
+ {
+  "id": 244,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 264,
+  "attempts": 3,
+  "rejections": {
+   "voxels=130": 1,
+   "voxels=157": 1
+  },
+  "block_length": 377.09228412391974,
+  "block_width": 145.50043452531247,
+  "block_thickness": 227.5640799194387,
+  "strike_offset": 229.25983516600155,
+  "lateral_offset": 109.51902946678493,
+  "center_m": [
+   481.99940859360106,
+   790.7933440984826,
+   557.1899202281679
+  ],
+  "yaw_deg": 136.4653890494388,
+  "mean": 0.7800807708751087
+ },
+ {
+  "id": 245,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 327,
+  "attempts": 3,
+  "rejections": {
+   "voxels=147": 1,
+   "voxels=159": 1
+  },
+  "block_length": 364.925581847593,
+  "block_width": 193.25077591938367,
+  "block_thickness": 215.50157825710536,
+  "strike_offset": 259.6785712899248,
+  "lateral_offset": 105.19589155964988,
+  "center_m": [
+   612.579149084447,
+   713.4290419061172,
+   378.6863588077244
+  ],
+  "yaw_deg": -8.411560474341485,
+  "mean": 0.7985013212973482
+ },
+ {
+  "id": 246,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 287,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 385.041544556046,
+  "block_width": 144.36427739794127,
+  "block_thickness": 237.85230246772545,
+  "strike_offset": 242.06315185850644,
+  "lateral_offset": 78.4574641225513,
+  "center_m": [
+   1088.3770428274854,
+   718.8053874158068,
+   537.4855548396749
+  ],
+  "yaw_deg": 132.40588968115412,
+  "mean": 0.693844176384336
+ },
+ {
+  "id": 247,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 216,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 405.37640630507985,
+  "block_width": 125.60132507162797,
+  "block_thickness": 191.55039189979016,
+  "strike_offset": 250.96905086639586,
+  "lateral_offset": 88.30921677016671,
+  "center_m": [
+   991.6312982771173,
+   445.05655037483,
+   508.50046957065155
+  ],
+  "yaw_deg": 19.94082811306121,
+  "mean": 0.5679686799353008
+ },
+ {
+  "id": 248,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 187,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 286.36560994219667,
+  "block_width": 152.51828351458067,
+  "block_thickness": 229.00791338607368,
+  "strike_offset": 175.05296949303258,
+  "lateral_offset": 79.32090538178456,
+  "center_m": [
+   352.77524128305674,
+   1000.1247810249891,
+   446.46808804571026
+  ],
+  "yaw_deg": 37.86119551178654,
+  "mean": 0.45743308881268496
+ },
+ {
+  "id": 249,
+  "family": "en_echelon",
+  "law": 4,
+  "law_name": "smooth_random",
+  "n_voxels": 270,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 276.6179348784573,
+  "block_width": 196.17660646584372,
+  "block_thickness": 213.372162613334,
+  "strike_offset": 214.086705621588,
+  "lateral_offset": 136.4615143956045,
+  "center_m": [
+   381.5268321287843,
+   1151.911736355172,
+   295.12281973679484
+  ],
+  "yaw_deg": -72.69846433969514,
+  "mean": 0.7161093300362943
+ },
+ {
+  "id": 250,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 197,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 288.7862346150007,
+  "block_width": 191.80101452555675,
+  "block_thickness": 159.3612308923179,
+  "strike_offset": 214.9938339090921,
+  "lateral_offset": 118.73593944480369,
+  "center_m": [
+   835.2602829278057,
+   520.2135242296594,
+   316.6696081631771
+  ],
+  "yaw_deg": -89.94343791183958,
+  "core_fraction_target": 0.40570982576704606,
+  "core_fraction": 0.12690355329949238,
+  "mean": 0.7350926395561037
+ },
+ {
+  "id": 251,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 286,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 389.2470388400352,
+  "block_width": 150.5158818834671,
+  "block_thickness": 218.47143461124693,
+  "strike_offset": 293.19300831398056,
+  "lateral_offset": 89.26800690687756,
+  "center_m": [
+   649.0610920627587,
+   785.2954574067351,
+   330.1167164456855
+  ],
+  "yaw_deg": 155.4655646427201,
+  "core_fraction_target": 0.36303913441155744,
+  "core_fraction": 0.1993006993006993,
+  "mean": 0.8408862158021506
+ },
+ {
+  "id": 252,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 258,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 339.04183541728116,
+  "block_width": 156.22006899495858,
+  "block_thickness": 220.43081943259256,
+  "strike_offset": 253.97071186666568,
+  "lateral_offset": 78.39935937804799,
+  "center_m": [
+   1003.5880679795398,
+   705.4180132239841,
+   212.41729281253626
+  ],
+  "yaw_deg": 126.32235122991673,
+  "core_fraction_target": 0.4511152112150433,
+  "core_fraction": 0.24031007751937986,
+  "mean": 0.7729442164581808
+ },
+ {
+  "id": 253,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 259,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 331.6735419637597,
+  "block_width": 163.8525457421719,
+  "block_thickness": 232.14285480891243,
+  "strike_offset": 214.49477154983865,
+  "lateral_offset": 82.41438427561772,
+  "center_m": [
+   964.5275957379165,
+   699.9354292603791,
+   208.3231156597677
+  ],
+  "yaw_deg": -76.10537562797822,
+  "core_fraction_target": 0.36106360127639625,
+  "core_fraction": 0.22393822393822393,
+  "mean": 0.5673040453044125
+ },
+ {
+  "id": 254,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 237,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 419.196489050653,
+  "block_width": 192.91185694728966,
+  "block_thickness": 138.4273503037598,
+  "strike_offset": 284.0156846988594,
+  "lateral_offset": 110.38528381307175,
+  "center_m": [
+   515.7710235020967,
+   821.2662627234007,
+   351.98988023758386
+  ],
+  "yaw_deg": -107.46216395902333,
+  "core_fraction_target": 0.4764539040482377,
+  "core_fraction": 0.11814345991561181,
+  "mean": 0.8300129976323823
+ },
+ {
+  "id": 255,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 265,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 368.1468077144463,
+  "block_width": 162.8594684750559,
+  "block_thickness": 200.93258811981275,
+  "strike_offset": 256.26387669188983,
+  "lateral_offset": 89.27776590165382,
+  "center_m": [
+   955.5235970715516,
+   824.9720528639933,
+   194.4283758558819
+  ],
+  "yaw_deg": 106.18531742766415,
+  "core_fraction_target": 0.40411446806962226,
+  "core_fraction": 0.21509433962264152,
+  "mean": 0.7684982760433501
+ },
+ {
+  "id": 256,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 264,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 351.9002910890216,
+  "block_width": 137.16298895491232,
+  "block_thickness": 236.74675264467692,
+  "strike_offset": 256.4401636392558,
+  "lateral_offset": 109.07483306128644,
+  "center_m": [
+   483.7677277208851,
+   1041.0778627939205,
+   456.6818446070639
+  ],
+  "yaw_deg": -178.9906478018363,
+  "core_fraction_target": 0.35371129662605566,
+  "core_fraction": 0.1553030303030303,
+  "mean": 0.5199218010884281
+ },
+ {
+  "id": 257,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 301,
+  "attempts": 4,
+  "rejections": {
+   "boundary_contact": 3
+  },
+  "block_length": 383.64724694845773,
+  "block_width": 189.98481352324333,
+  "block_thickness": 191.43470491481577,
+  "strike_offset": 274.54575321987204,
+  "lateral_offset": 122.41663083475359,
+  "center_m": [
+   826.9434534979972,
+   805.1343748720892,
+   535.2073385386248
+  ],
+  "yaw_deg": -90.28334805046498,
+  "core_fraction_target": 0.41450366630431507,
+  "core_fraction": 0.1760797342192691,
+  "mean": 0.5245644468175418
+ },
+ {
+  "id": 258,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 243,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 275.3655823646786,
+  "block_width": 159.75149039190038,
+  "block_thickness": 224.82105742868168,
+  "strike_offset": 204.94917222984233,
+  "lateral_offset": 94.86754484746248,
+  "center_m": [
+   1068.224827756163,
+   1243.2323169543097,
+   572.2290040900127
+  ],
+  "yaw_deg": 115.91026084318283,
+  "core_fraction_target": 0.4163067748569911,
+  "core_fraction": 0.21810699588477367,
+  "mean": 0.47778523243465526
+ },
+ {
+  "id": 259,
+  "family": "en_echelon",
+  "law": 5,
+  "law_name": "core_shell",
+  "n_voxels": 333,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 402.26996716594056,
+  "block_width": 191.87363370799176,
+  "block_thickness": 201.26322143865175,
+  "strike_offset": 253.0784087547356,
+  "lateral_offset": 122.58759569426199,
+  "center_m": [
+   1264.0193489569065,
+   685.1343770709714,
+   396.9686892530452
+  ],
+  "yaw_deg": 49.11556971371048,
+  "core_fraction_target": 0.37866481260309304,
+  "core_fraction": 0.2852852852852853,
+  "mean": 0.6300573859056668
+ },
+ {
+  "id": 260,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 292,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 356.1656759890598,
+  "block_width": 148.3790207285944,
+  "block_thickness": 223.07113200638742,
+  "strike_offset": 215.73946457201342,
+  "lateral_offset": 108.07525534873835,
+  "center_m": [
+   1167.864724799646,
+   1055.1236010651835,
+   219.016251411275
+  ],
+  "yaw_deg": -121.67608401977185,
+  "cycles": 2.008407349226184,
+  "phase": 0.5457982771523542,
+  "mean": 0.8385088345716184
+ },
+ {
+  "id": 261,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 361,
+  "attempts": 5,
+  "rejections": {
+   "voxels=177": 1,
+   "boundary_contact": 3
+  },
+  "block_length": 398.62732581249145,
+  "block_width": 190.78476606671782,
+  "block_thickness": 199.92652011306845,
+  "strike_offset": 280.0762401197179,
+  "lateral_offset": 127.45988533229236,
+  "center_m": [
+   829.502342469049,
+   648.1201596704557,
+   351.6320985166327
+  ],
+  "yaw_deg": -177.43965852042783,
+  "cycles": 1.6158843942538355,
+  "phase": 4.023337299465699,
+  "mean": 0.5401313346126746
+ },
+ {
+  "id": 262,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 238,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 339.4560609383465,
+  "block_width": 155.23401756764454,
+  "block_thickness": 189.50136559547832,
+  "strike_offset": 241.47664207162407,
+  "lateral_offset": 97.33649938090795,
+  "center_m": [
+   958.1135499145727,
+   670.4178263324657,
+   544.1360127478215
+  ],
+  "yaw_deg": 43.71550194726564,
+  "cycles": 1.6971010426662474,
+  "phase": 3.5411066235555424,
+  "mean": 0.5580884856623917
+ },
+ {
+  "id": 263,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 237,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 289.5048091072807,
+  "block_width": 171.25370315431582,
+  "block_thickness": 222.06526240802646,
+  "strike_offset": 203.3199137892213,
+  "lateral_offset": 98.62579395966299,
+  "center_m": [
+   375.7763681318687,
+   438.5008846738144,
+   217.68461251229155
+  ],
+  "yaw_deg": -100.87766871379338,
+  "cycles": 2.4482138684486627,
+  "phase": 0.11422545724983518,
+  "mean": 0.7853135531830262
+ },
+ {
+  "id": 264,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 264,
+  "attempts": 3,
+  "rejections": {
+   "voxels=152": 1,
+   "voxels=114": 1
+  },
+  "block_length": 344.0377118428519,
+  "block_width": 190.44726880695814,
+  "block_thickness": 182.64292299234995,
+  "strike_offset": 264.71601249799596,
+  "lateral_offset": 122.11549805283346,
+  "center_m": [
+   566.3669270453183,
+   663.9131074690008,
+   565.4745340866484
+  ],
+  "yaw_deg": -32.599896453920984,
+  "cycles": 1.8456145247766027,
+  "phase": 3.450201664055741,
+  "mean": 0.6668692826625818
+ },
+ {
+  "id": 265,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 248,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 353.12620130902906,
+  "block_width": 176.29230561718003,
+  "block_thickness": 171.6039184675908,
+  "strike_offset": 239.39357287033252,
+  "lateral_offset": 127.01671145021554,
+  "center_m": [
+   534.0113396760748,
+   456.51538945228447,
+   209.9060677277859
+  ],
+  "yaw_deg": -41.042371166969176,
+  "cycles": 1.8905973313634814,
+  "phase": 5.617073828077066,
+  "mean": 0.7820779619245498
+ },
+ {
+  "id": 266,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 248,
+  "attempts": 3,
+  "rejections": {
+   "voxels=151": 1,
+   "boundary_contact": 1
+  },
+  "block_length": 266.96437935885155,
+  "block_width": 182.45651140193016,
+  "block_thickness": 228.21715862706787,
+  "strike_offset": 173.4888835916225,
+  "lateral_offset": 97.575458270814,
+  "center_m": [
+   699.8883412213765,
+   671.8818699803985,
+   534.3255806160005
+  ],
+  "yaw_deg": 31.28954932771327,
+  "cycles": 1.603025498096129,
+  "phase": 4.579335119703266,
+  "mean": 0.6049055981073894
+ },
+ {
+  "id": 267,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 207,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "block_length": 308.30813957833027,
+  "block_width": 148.3669311459923,
+  "block_thickness": 195.51637081262572,
+  "strike_offset": 232.7674703959379,
+  "lateral_offset": 112.30710452463533,
+  "center_m": [
+   725.5723259244862,
+   375.5775103001869,
+   292.2336164902239
+  ],
+  "yaw_deg": -5.407588932704809,
+  "cycles": 2.0461100138860195,
+  "phase": 2.8614353364035696,
+  "mean": 0.45364666382636537
+ },
+ {
+  "id": 268,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 197,
+  "attempts": 3,
+  "rejections": {
+   "voxels=117": 1,
+   "boundary_contact": 1
+  },
+  "block_length": 275.63755511997766,
+  "block_width": 152.9583257937041,
+  "block_thickness": 206.6909316741988,
+  "strike_offset": 187.501468101131,
+  "lateral_offset": 111.58304937794252,
+  "center_m": [
+   710.5369171248357,
+   732.3459320517655,
+   381.2569485826557
+  ],
+  "yaw_deg": 5.5002369779901645,
+  "cycles": 2.381413431347576,
+  "phase": 4.461651282663425,
+  "mean": 0.5525058626683265
+ },
+ {
+  "id": 269,
+  "family": "en_echelon",
+  "law": 6,
+  "law_name": "banded",
+  "n_voxels": 204,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 379.2860998328241,
+  "block_width": 120.1146448394567,
+  "block_thickness": 195.69483400816702,
+  "strike_offset": 234.9453830003696,
+  "lateral_offset": 87.2998593090734,
+  "center_m": [
+   557.0163374343026,
+   1054.6910702840344,
+   465.55148489036605
+  ],
+  "yaw_deg": -165.9811673740244,
+  "cycles": 2.1806093806099454,
+  "phase": 4.050428707858958,
+  "mean": 0.5874496587000096
+ },
+ {
+  "id": 270,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 295,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 1,
+   "voxels=159": 1
+  },
+  "block_length": 410.2548253708287,
+  "block_width": 151.81365371378683,
+  "block_thickness": 210.41982539848954,
+  "strike_offset": 284.80816805140387,
+  "lateral_offset": 108.43527760325445,
+  "center_m": [
+   647.3333728038003,
+   1014.755674191931,
+   394.0786848534824
+  ],
+  "yaw_deg": 83.8122066348093,
+  "n_patches": 3,
+  "mean": 0.4718278879716975
+ },
+ {
+  "id": 271,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 238,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 388.703244937955,
+  "block_width": 189.48695460840787,
+  "block_thickness": 142.93340622869917,
+  "strike_offset": 257.6594722880916,
+  "lateral_offset": 133.68263718458223,
+  "center_m": [
+   703.5332728418186,
+   429.19773198333564,
+   362.3245675294012
+  ],
+  "yaw_deg": -157.34982059404257,
+  "n_patches": 5,
+  "mean": 0.6843497780104958
+ },
+ {
+  "id": 272,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 336,
+  "attempts": 2,
+  "rejections": {
+   "boundary_contact": 1
+  },
+  "block_length": 316.42219766529064,
+  "block_width": 185.4581512097202,
+  "block_thickness": 225.58424022108204,
+  "strike_offset": 228.90202942183845,
+  "lateral_offset": 113.20182689213247,
+  "center_m": [
+   677.7185562402635,
+   754.5479704651414,
+   380.25306833150773
+  ],
+  "yaw_deg": 44.87346477545965,
+  "n_patches": 5,
+  "mean": 0.8279177743989865
+ },
+ {
+  "id": 273,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 219,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 336.91757422859695,
+  "block_width": 181.11341908491556,
+  "block_thickness": 159.80139183014413,
+  "strike_offset": 210.80408819322463,
+  "lateral_offset": 139.93487086174156,
+  "center_m": [
+   603.640747415425,
+   1031.6939734255611,
+   335.8957795416594
+  ],
+  "yaw_deg": -63.88637785967477,
+  "n_patches": 3,
+  "mean": 0.7695924851221716
+ },
+ {
+  "id": 274,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 209,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 333.832754447907,
+  "block_width": 149.97588842050038,
+  "block_thickness": 223.01124593671508,
+  "strike_offset": 233.48200813661984,
+  "lateral_offset": 78.46564340335016,
+  "center_m": [
+   762.8147587439728,
+   524.9155039463884,
+   557.1486694322273
+  ],
+  "yaw_deg": 94.32639940467253,
+  "n_patches": 3,
+  "mean": 0.7690127252825516
+ },
+ {
+  "id": 275,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 192,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 273.8462139245462,
+  "block_width": 137.54748248353366,
+  "block_thickness": 223.3643211902537,
+  "strike_offset": 212.7557702776931,
+  "lateral_offset": 109.06846911037275,
+  "center_m": [
+   346.8746046444104,
+   856.3782270630785,
+   436.090084314478
+  ],
+  "yaw_deg": 73.4718781659701,
+  "n_patches": 3,
+  "mean": 0.7487232292843868
+ },
+ {
+  "id": 276,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 270,
+  "attempts": 2,
+  "rejections": {
+   "voxels=140": 1
+  },
+  "block_length": 388.2520542734527,
+  "block_width": 160.02614345585948,
+  "block_thickness": 202.35400494262652,
+  "strike_offset": 250.59360182865723,
+  "lateral_offset": 93.80698336793729,
+  "center_m": [
+   471.9294574273512,
+   1061.4860267834597,
+   364.4012351589681
+  ],
+  "yaw_deg": 12.705833082275744,
+  "n_patches": 5,
+  "mean": 0.8129451386093505
+ },
+ {
+  "id": 277,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 273,
+  "attempts": 1,
+  "rejections": {},
+  "block_length": 313.45008589436566,
+  "block_width": 198.10995397743153,
+  "block_thickness": 196.33943968158644,
+  "strike_offset": 211.08163090399805,
+  "lateral_offset": 130.55277647367765,
+  "center_m": [
+   519.4693755410374,
+   934.5756662805722,
+   486.0838506646656
+  ],
+  "yaw_deg": 61.43818613620942,
+  "n_patches": 3,
+  "mean": 0.5475884892269891
+ },
+ {
+  "id": 278,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 341,
+  "attempts": 2,
+  "rejections": {
+   "voxels=156": 1
+  },
+  "block_length": 413.524833829228,
+  "block_width": 169.09298893128025,
+  "block_thickness": 206.7766187478661,
+  "strike_offset": 263.2603370129084,
+  "lateral_offset": 128.4908611041424,
+  "center_m": [
+   589.3340662489653,
+   1143.1879373312672,
+   279.6811996647613
+  ],
+  "yaw_deg": 30.37340025008053,
+  "n_patches": 3,
+  "mean": 0.5251457559848531
+ },
+ {
+  "id": 279,
+  "family": "en_echelon",
+  "law": 7,
+  "law_name": "voronoi_patches",
+  "n_voxels": 219,
+  "attempts": 3,
+  "rejections": {
+   "boundary_contact": 1,
+   "voxels=142": 1
+  },
+  "block_length": 287.46327027887764,
+  "block_width": 177.48435159576994,
+  "block_thickness": 191.7256975515156,
+  "strike_offset": 222.762232350928,
+  "lateral_offset": 100.73417879219035,
+  "center_m": [
+   792.2959895431766,
+   511.8193410055263,
+   404.38593380190184
+  ],
+  "yaw_deg": 76.66835397445819,
+  "n_patches": 3,
+  "mean": 0.6792347853606664
+ }
+]

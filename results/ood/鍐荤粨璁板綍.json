@@ -1,0 +1,51 @@
+{
+ "protocol": {
+  "file": "OOD方案与事前预测_v1.md",
+  "sha256": "d4eb20a34726ba89642a7a175d6677dc11dbbdfce63f09a2771df6c17a2cdab0",
+  "frozen_at_local": "2026-11-03 10:11:25",
+  "tz": "America/Chicago",
+  "state_at_freeze": "no OOD data generated; no network weights available in this session; no network inference run"
+ },
+ "data": {
+  "frozen_at_local": "2026-11-03 10:13:34",
+  "tz": "America/Chicago",
+  "state_at_freeze": "OOD data generated and V computed; network weights not available; no inference run",
+  "files": {
+   "generate_ood.py": "01b7220f3dc03ed445998d6774d9901656a5778766b8d299c14087f611352f35",
+   "ood_arrays.npz": "8b6fffec64f44b6fe6dc0cd1da187ad3b2d5e6a901d52480ce78af0d95faa7df",
+   "ood_metadata.json": "b5e9dab83270be8462ad5ab4dbe7113a43e3533d1715b05e3888d6d7411ababf",
+   "visibility_ood.py": "49c0a52b2474a68503615fdb607a2ea53ff0c2fbbce4bbbb70ae9ba31ed57c78",
+   "ood_visibility_per_case.csv": "001148bbac7aafdbce2071f36af9fb8df2762dbca5254e77101e129c78151ae6",
+   "修订记录.md": "afc5266f5dd3ecaa631475565e628d4725a538f63018e81a0fc5dc87e278ae81",
+   "OOD方案与事前预测_v1.md": "d4eb20a34726ba89642a7a175d6677dc11dbbdfce63f09a2771df6c17a2cdab0"
+  },
+  "inputs": {
+   "G.mat": "0ed03e8bc9b9261ef764f13bd85c893d06eeab4db86de1b4c284b9f23257b160"
+  },
+  "note": "修订记录.md 时间戳由笔误 10:16 更正为 10:13 后重新计算哈希；数据文件未变"
+ },
+ "evaluation": {
+  "completed_at_local": "2026-11-03 10:31:48",
+  "tz": "America/Chicago",
+  "weights_sha256_verified": true,
+  "reproduction_gate": {
+   "seed1_C_domain0_max_abs_diff": 9.47713851928711e-06,
+   "seed1_C_domain1_max_abs_diff": 7.510185241699219e-06,
+   "seed1_H_domain0_max_abs_diff": 6.258487701416016e-06,
+   "seed1_H_domain1_max_abs_diff": 7.033348083496094e-06,
+   "seed2_response_rmse_max_abs_diff": 3.424987433386928e-07,
+   "seed3_response_rmse_max_abs_diff": 3.32827608362507e-07,
+   "passed": true
+  },
+  "files": {
+   "evaluate_ood.py": "6fcbfc50ca219809f1c3a612515bd64dd1b63355fdbf4347dde0ba0c257ff6f3",
+   "ood_results.json": "fcdcdd9bbc6d4d7fb6eff6d9d5df0adc618293b8a2716b7468f4af7b37dbe9d2",
+   "ood_exploratory.json": "7923d0edb5da31930604dccf7e1700f1cf03c1101b4c31833ee743336427bfa4",
+   "ood_model_per_case.csv": "82a6c10740ac13d812ee7bdcea81714bb5969da57377642131473cb61af54956",
+   "ood_response_per_case.csv": "d00d6e8ba249c4155a14fe080dbe43110716d918b47f89efd15125f69117c267",
+   "reproduction_gate.json": "43cda9079aefc8dba731f0465347049e2cf2fde9ac941823fb2fd4f2013b5dde"
+  },
+  "protocol_unchanged": true,
+  "data_unchanged": true
+ }
+}
