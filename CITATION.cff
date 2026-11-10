@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper (in preparation) and the Zenodo data record."
+title: "VD-Net: within-body variable-density training prior for 3-D gravity deep-learning inversion"
+authors:
+  - family-names: "FAMILY_NAME"
+    given-names: "GIVEN_NAMES"
+version: "1.0.0"
+date-released: "2026-11-10"
+license: MIT
