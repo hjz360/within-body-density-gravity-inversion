@@ -1,0 +1,12 @@
+{
+ "rule1": false,
+ "rule2": false,
+ "rule2_theory_dice": false,
+ "rule2_rmse": false,
+ "rule3": true,
+ "rule4": true,
+ "mean_reduction_abs": -0.014494818085288332,
+ "mean_reduction_rmse": -0.0030916411803222107,
+ "mean_reduction_resp": -0.006439411762107196,
+ "advisor_hypothesis_supported": false
+}
