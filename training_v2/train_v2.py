@@ -121,7 +121,7 @@ def main():
     ap.add_argument('--config-json', required=True, type=Path, help='metadata.json of the original run (split and settings)')
     ap.add_argument('--G', required=True, type=Path, help='G.mat or G.npy')
     ap.add_argument('--seed', required=True, type=int)
-    ap.add_argument('--arm', required=True, choices=['C', 'H', 'P', 'N'], help='label only; P/N reserved for control libraries')
+    ap.add_argument('--arm', required=True, choices=['C', 'H', 'P', 'N', 'A'], help='label only; P/N reserved for control libraries; A = all-variable library')
     ap.add_argument('--lambda-g', required=True, type=float)
     ap.add_argument('--epochs', type=int, default=120)
     ap.add_argument('--lg-warmup', type=int, default=10, help='lambda_g ramps linearly from lambda_g/warmup to lambda_g over the first epochs')
