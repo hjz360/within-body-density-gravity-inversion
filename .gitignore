@@ -1,8 +1,9 @@
 __pycache__/
 *.pyc
-data/
+/data/
+out/
 *.pth
+*.mat
 *.npz
 *.npy
-*.mat
-out/
+!paper/data/*.npy

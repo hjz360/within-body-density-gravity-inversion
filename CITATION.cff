@@ -1,9 +1,39 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the paper (in preparation) and the Zenodo data record."
-title: "VD-Net: within-body variable-density training prior for 3-D gravity deep-learning inversion"
+message: "If you use this code, please cite the paper and the Zenodo data record."
+title: "Within-body variable-density training models for 3-D gravity deep-learning inversion"
+type: software
 authors:
-  - family-names: "FAMILY_NAME"
-    given-names: "GIVEN_NAMES"
-version: "1.0.0"
-date-released: "2026-11-10"
+  - family-names: "He"
+    given-names: "Jianzheng"
+    orcid: "https://orcid.org/0009-0007-2369-8658"
+    affiliation: "Key Laboratory of Intraplate Volcanoes and Earthquakes, China University of Geosciences, Ministry of Education, Beijing 100083, China"
+  - family-names: "Meng"
+    given-names: "Qingkui"
+    orcid: "https://orcid.org/0009-0002-0165-3647"
+    email: "qingkui_meng@163.com"
+    affiliation: "Key Laboratory of Intraplate Volcanoes and Earthquakes, China University of Geosciences, Ministry of Education, Beijing 100083, China; China Aero Geophysical Survey and Remote Sensing Center for Natural Resources, Beijing 100083, China"
+  - family-names: "Guo"
+    given-names: "Lianghui"
+    orcid: "https://orcid.org/0000-0002-5149-232X"
+    affiliation: "Key Laboratory of Intraplate Volcanoes and Earthquakes, China University of Geosciences, Ministry of Education, Beijing 100083, China"
+repository-code: "https://github.com/hjz360/within-body-density-gravity-inversion"
 license: MIT
+version: "1.0.0"
+date-released: "2026-11-26"
+keywords:
+  - gravity inversion
+  - deep learning
+  - training data
+  - within-body density
+  - U-Net
+references:
+  - type: data
+    title: "Data and trained networks for \"3-D gravity deep-learning inversion with within-body variable-density training models\""
+    doi: "10.5281/zenodo.24550462"
+    authors:
+      - family-names: "He"
+        given-names: "Jianzheng"
+      - family-names: "Meng"
+        given-names: "Qingkui"
+      - family-names: "Guo"
+        given-names: "Lianghui"
