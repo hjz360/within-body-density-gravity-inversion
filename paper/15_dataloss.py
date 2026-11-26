@@ -8,8 +8,9 @@ Test set (noise-free): relative data residual, density RMSE, response error, wit
 fluctuation; field: sliding-window inference, station residual and mass-depth distribution in the ore-body box.
 Checkpoints: epoch 120 (primary), best, 40, 80.
 
-Weights: these 16 checkpoints are not in the Zenodo record. Put the training run folders
-<arm>_seed20260727_lg<0|0.003>/<checkpoint>.pth in $VDNET_CONFIRM (default $VDNET_WEIGHTS/confirm_runs).
+Weights (Zenodo record, in $VDNET_WEIGHTS): dataloss_<C,H>_lg0.003_<best,e040,e080,e120>.pth and
+dataloss_<C,H>_lg0_<e040,e080>.pth. Without the term, the best and epoch-120 checkpoints are the seed-1 networks of the
+paper (best_<arm>_seed20260727.pth, e120_<arm>_seed20260727.pth).
 Needs the third-party files stations.npz and grid/ for the field part.
 
 Outputs: $VDNET_OUT/dataloss/confirm_results.json"""
@@ -19,7 +20,15 @@ import numpy as np
 import common as K
 import field as F
 
-R = os.environ.get('VDNET_CONFIRM', os.path.join(K.WEIGHTS, 'confirm_runs'))
+KIND = {'epoch_120_weights': 'e120', 'best_density_weights': 'best', 'epoch_040_weights': 'e040', 'epoch_080_weights': 'e080'}
+
+
+def ckpt(arm, lg, ck):
+    if lg == '0' and KIND[ck] in ('best', 'e120'):
+        return K.weight(arm, '20260727', KIND[ck])
+    return os.path.join(K.WEIGHTS, f'dataloss_{arm}_lg{lg}_{KIND[ck]}.pth')
+
+
 d = K.test200(); T, Lb, X = d['T'], d['L'], d['X']
 G = K.G().astype(np.float64)
 obs, xy = F.stations(); A = F.build(xy); depth = F.DEPTH
@@ -41,9 +50,9 @@ out = {'gate': gate}; per = {}
 for ck in ('epoch_120_weights', 'best_density_weights', 'epoch_040_weights', 'epoch_080_weights'):
     for lg in ('0.003', '0'):
         for arm in 'CH':
-            w = os.path.join(R, f'{arm}_seed20260727_lg{lg}', f'{ck}.pth')
+            w = ckpt(arm, lg, ck)
             if not os.path.exists(w):
-                raise SystemExit(f'missing {w}; see the docstring')
+                raise SystemExit(f'missing {w}; download it from the Zenodo record')
             p = np.stack([K.predict(w, X[k]) for k in (0, 1)]).astype(float)
             r = np.linalg.norm(p[1].reshape(200, -1) @ G.T - obsH, axis=1) / np.linalg.norm(obsH, axis=1)
             resp = np.array([rms_c(p[1, i] - p[0, i] - (T[1, i] - T[0, i]), Lb[i]) for i in nc]); ab = np.array([rms_c(p[1, i] - T[1, i], Lb[i]) for i in nc])

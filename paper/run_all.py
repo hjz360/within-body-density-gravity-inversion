@@ -16,13 +16,12 @@ import common as K  # noqa: E402
 
 quick = '--quick' in sys.argv
 have_third = os.path.exists(os.path.join(K.THIRD, 'stations.npz'))
-have_confirm = os.path.isdir(os.environ.get('VDNET_CONFIRM', os.path.join(K.WEIGHTS, 'confirm_runs')))
 steps = [('01_predict.py', ['P', 'A'], True), ('02_paired_tables.py', [], True), ('03_theory12.py', [], True),
          ('04_same_geometry.py', [], True), ('05_noise.py', [], not quick), ('06_boundary.py', [], True),
          ('07_visibility.py', [], True), ('08_ood_generate.py', [], True), ('09_ood.py', [], True),
          ('10_permutation.py', [], True), ('11_allvar.py', [], True),
          ('12_field.py', [], have_third), ('13_field_l2.py', [], have_third), ('14_refine.py', [], not quick),
-         ('15_dataloss.py', [], have_third and have_confirm and not quick)]
+         ('15_dataloss.py', [], have_third and not quick), ('16_best_epochs.py', [], True)]
 figs = ['fig01_framework.py', 'fig02_03_library.py', 'fig04_unet.py', 'fig05_loss.py', 'fig06_09_theory_models.py',
         'fig10_paired.py', 'fig11_examples.py', 'fig12_noise.py']
 figs_third = ['fig14_field_map.py', 'fig15_field_l2.py', 'fig16_depth.py', 'fig17_sal31.py', 'fig18_published.py']
