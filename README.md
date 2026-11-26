@@ -32,7 +32,7 @@ The study also covers 12 theory models compared with a depth-weighted L2 inversi
 
 | folder | content |
 |---|---|
-| `paper/` | every script behind the figures, tables and numbers of the manuscript (best-validation weights), in run order; `paper/data/` holds the training histories of the seed-1 networks and the depth profile of the training models |
+| `paper/` | every script behind the figures, tables and numbers of the manuscript (best-validation weights), in run order; `paper/data/` holds the training histories of the six C/H networks and the depth profile of the training models |
 | `original_pipeline/` | data generation, training and first evaluations, kept byte-identical (`PROVENANCE.md`); the network is `make_unet()` in `train_formal_20k.py`, the within-body metric `recovery()` in `internal_recovery_audit.py` |
 | `training_v2/` | training script used for the P and A controls and the data-loss test (`train_v2.py`), the generators of the P and A libraries, and the protocols written before these runs (Chinese) |
 | `results/` | protocols written before computation (`results/ood/ood_protocol_v1_zh.md`, `results/boundary/boundary_protocol_zh.md`, Chinese) and results of earlier analysis rounds |
@@ -48,7 +48,7 @@ The study also covers 12 theory models compared with a depth-weighted L2 inversi
 
 ## Data
 
-Download the record from Zenodo (DOI above) and unpack `data_core.zip` into one folder. Put the 18 weight files into its sub-folder `weights/`; `weights_sha256.json` gives their SHA-256. Then:
+Download the record from Zenodo (DOI above) and unpack `data_core.zip` into one folder. Put the 30 weight files into its sub-folder `weights/`; `weights_sha256.json` gives their SHA-256. Then:
 
 ```bash
 export VDNET_DATA=/path/to/data            # Windows: set VDNET_DATA=D:\path\to\data
@@ -58,7 +58,7 @@ python tools/make_G_npy.py                 # writes $VDNET_DATA/G.npy
 | variable | default | content |
 |---|---|---|
 | `VDNET_DATA` | `<repo>/data` | data record |
-| `VDNET_WEIGHTS` | `$VDNET_DATA/weights` | `best_<C,H,P,A>_seed<seed>.pth`, `e120_<C,H>_seed<seed>.pth` |
+| `VDNET_WEIGHTS` | `$VDNET_DATA/weights` | `best_<C,H,P,A>_seed<seed>.pth`, `e120_<C,H>_seed<seed>.pth`, `dataloss_*.pth` |
 | `VDNET_PRED` | `$VDNET_DATA/predictions` | cached predictions written by `paper/01_predict.py` |
 | `VDNET_THIRDPARTY` | `$VDNET_DATA/third_party` | third-party field material (see below) |
 | `VDNET_OUT` | `<repo>/paper/out` | all outputs |
@@ -88,7 +88,8 @@ All outputs were checked against the archived results behind the manuscript of 2
 | Section 4.2, field residuals, borehole overlap, SAL-31 values | `12_field.py` | third-party material |
 | Section 4.2, depth-weighted L2 of the field data (r = 0.008) | `13_field_l2.py` | third-party material |
 | Section 5.2, Softplus floor and forward refinement | `14_refine.py` | several hours |
-| Section 5.2, data-misfit term in the loss | `15_dataloss.py` | its 16 checkpoints are not in the record; see the script |
+| Section 5.2, data-misfit term in the loss | `15_dataloss.py` | uses the `dataloss_*.pth` checkpoints |
+| best-validation epochs of the six C/H networks (66–74 of 120) | `16_best_epochs.py` | |
 | Fig. 1 | `fig01_framework.py` | |
 | Figs. 2 and 3 | `fig02_03_library.py` | |
 | Fig. 4 | `fig04_unet.py` | |
@@ -106,7 +107,7 @@ All outputs were checked against the archived results behind the manuscript of 2
 
 Tables 1 and 2 contain no computed values. Table 2 lists the generator settings in `original_pipeline/build_geology_v4_dataset.py` and `geology_v4.py`.
 
-Two statements have no script here. The best-validation epochs of the six networks (66–74) come from the training logs; only the seed-1 histories are in `paper/data/training_history/`. The mass-depth overlap estimated from the two published sections of Chaudhuri et al. (2026) (Section 4.3) was read from the figures by hand.
+One statement has no script here. The mass-depth overlap estimated from the two published sections of Chaudhuri et al. (2026) (Section 4.3) was read from the figures by hand.
 
 ## Training
 
