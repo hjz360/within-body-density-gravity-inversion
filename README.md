@@ -42,7 +42,7 @@ The study also covers 12 theory models compared with a depth-weighted L2 inversi
 ## Requirements
 
 - Python ≥ 3.10 with the packages in `requirements.txt` (numpy, scipy, torch, h5py, matplotlib, pillow). The results were produced with Python 3.13, numpy 2.5, scipy 1.18, torch 2.15, h5py 3.16 and matplotlib 3.11.
-- Hardware: evaluation and figures run on a CPU with 8 GB memory. Training a network takes about 1.5 h on one NVIDIA GPU.
+- Hardware: training one network takes about 1.5 h on an NVIDIA GeForce RTX 3060 Laptop GPU (6 GB) with 16 GB memory. Evaluation and figures run on a CPU with 8 GB memory.
 - Disk: about 2.4 GB for the data record with weights, and about 1.4 GB for the cached predictions.
 - Fonts: the figure labels are in English and use Liberation Serif (on Windows, Times New Roman is used instead).
 
