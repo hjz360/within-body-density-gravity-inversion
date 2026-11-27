@@ -70,7 +70,7 @@ for row, (m, d, nm, col, sym) in enumerate([(mH, dH, 'Variable-density model $m_
     txt(30.1, y0 + 9.2, '$G$', size=7.5, c=col)
     img(35, y0 - 0.5, 14, 14, d, **grav_kw)
     txt(42, y0 - 2.5, f'Forward modeling $d_{sym}=Gm_{sym}$', size=6.3, c=S.GREY)
-arrow(14.5, 53.5, 14.5, 44.5, c=S.GREY, lw=0.8)
+arrow(14.5, 52.2, 14.5, 44.5, c=S.GREY, lw=0.8)
 txt(16.2, 50.8, 'Average within each body', size=6.8, ha='left')
 txt(16.2, 47.6, 'Same geometry, body means and total mass', size=6.0, ha='left', c=S.GREY)
 
