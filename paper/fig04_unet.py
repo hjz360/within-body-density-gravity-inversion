@@ -52,8 +52,10 @@ for lv, chs in zip([3, 2, 1, 0], DEC):
     xs = row(x0, lv, chs, first_half=True, last_lab_right=(lv > 0)); dec_x[lv] = xs
     # up-conv from the last bar of the level below
     src = dec_x[lv + 1][-1] if lv + 1 in dec_x else enc_x[4][-1]
-    arr(xs[0] + BW * 0.75, TOP[lv + 1] + 0.3 + (2.0 if lv + 1 == 4 else 0), xs[0] + BW * 0.75, TOP[lv] - HT[lv] - 0.2, C_UP, ms=5) if False else None
-    ax.add_patch(FancyArrowPatch((src + BW / 2, TOP[lv + 1] + 0.2), (xs[0] + BW * 0.75, TOP[lv] - HT[lv] - 0.2), arrowstyle='-|>', mutation_scale=5, color=C_UP, lw=1.0, connectionstyle='angle,angleA=90,angleB=0', shrinkA=0, shrinkB=0))
+    # straight vertical up-conv arrow into the upsampled (filled) half of the first bar
+    xa = xs[0] + BW * 0.75
+    assert src - 1e-6 <= xa <= src + BW + 1e-6, (lv, src, xa)
+    arr(xa, TOP[lv + 1] + 0.2, xa, TOP[lv] - HT[lv] - 0.2, C_UP, ms=5)
     ym = TOP[lv] - HT[lv] / 2
     ax.add_patch(FancyArrowPatch((enc_x[lv][-1] + BW + 0.8, ym), (xs[0] - 0.8, ym), arrowstyle='-|>', mutation_scale=9, color=C_SK, lw=3.0, shrinkA=0, shrinkB=0))
 # output
