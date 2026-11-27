@@ -20,9 +20,9 @@ def show(a, m, k, vmax, outline=True):
     a.set_xlim(EXT[k][:2]); a.set_ylim(800, 0); a.tick_params(labelsize=6, length=1.8)
     return im
 def axes_lbl(a, k, left=True, bottom=True):
-    if bottom: a.set_xlabel(('东向' if k == 'AA' else '北向') + '/m', fontsize=6.5, labelpad=1)
+    if bottom: a.set_xlabel(('East' if k == 'AA' else 'North') + ' (m)', fontsize=6.5, labelpad=1)
     else: a.set_xticklabels([])
-    if left: a.set_ylabel('深度/m', fontsize=6.5)
+    if left: a.set_ylabel('Depth (m)', fontsize=6.5)
     else: a.set_yticklabels([])
 
 # ---------------- Fig. 18
@@ -39,7 +39,7 @@ CHC = {'AA': (ca.crop((96, 40, 841, 398)), chext(-2523.6, 74 - 100 * sz, 96, 841
 crops = {'AA': [hc((1115, 46, 1927, 349)), rc((68, 484, 488, 639))], 'BB': [hc((1186, 479, 1870, 784)), rc((101, 731, 454, 885))]}
 strips = [None, hc((1981, 166, 2003, 631)), rc((1670, 485, 1694, 924)), ca.crop((885, 34, 900, 404))]
 srange = [(0, 1.6), (0, 1.1), (0.3, 1.4), (0, 1.41)]
-rows = [S.NAME_H + '（种子1）', 'Huang等（2021）神经网络', 'Rana等（2026）U-Net', 'Chaudhuri等（2026）CNN-Transformer']
+rows = [S.NAME_H + ' (seed 1)', 'Huang et al. (2021), neural network', 'Rana et al. (2026), U-Net', 'Chaudhuri et al. (2026), CNN-Transformer']
 fig, ax = plt.subplots(4, 3, figsize=(S.FULL, 13.4 * S.CM), gridspec_kw=dict(width_ratios=[43, 36, 2.2]))
 for r in range(4):
     for c, k in enumerate(('AA', 'BB')):

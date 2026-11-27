@@ -30,7 +30,7 @@ def row(x, lv, chs, first_hollow=False, first_half=False):
 # input
 g = np.load(K.os.path.join(K.DATA, 'theory12', 'truth_and_input', 'gravity.npy'))[3, 0]
 ax.imshow(g, cmap='jet', origin='lower', extent=[1.5, 15.5, 72, 86], aspect='auto', interpolation='bilinear')
-ax.text(8.5, 87, '输入重力异常 d', ha='center', fontsize=6.3); ax.text(8.5, 71, '1×32×32', ha='center', va='top', fontsize=5.4, color='#404040')
+ax.text(8.5, 87, 'Input gravity\nanomaly d', ha='center', fontsize=6.3); ax.text(8.5, 71, '1×32×32', ha='center', va='top', fontsize=5.4, color='#404040')
 arr(16, 79, 18.6, 79, C_DC, lw=1.2)
 ENC = [[1, 64, 64], [64, 128, 128], [128, 256, 256], [256, 512, 512], [512, 1024, 1024]]
 DEC = [[1024, 512, 512], [512, 256, 256], [256, 128, 128], [128, 64, 64, 16, 16]]   # levels 3,2,1,0
@@ -55,14 +55,14 @@ for lv, chs in zip([3, 2, 1, 0], DEC):
 # output
 xl = dec_x[0][-1] + BW; ym = TOP[0] - HT[0] / 2
 arr(xl + 0.3, ym, xl + 4.2, ym, C_OUT, lw=1.8, ms=7)
-ax.text(xl + 2.2, ym - 1.5, '1×1卷积\n批归一化\nSoftplus', ha='center', va='top', fontsize=5, color='#3d7a1f')
+ax.text(xl + 2.2, ym - 1.5, '1×1\nconv\nBN\nSoftplus', ha='center', va='top', fontsize=5, color='#3d7a1f')
 cm = plt.get_cmap('jet')
 for i in range(6): ax.add_patch(Rectangle((xl + 5.5 + i * 0.8, 70 + i * 1.7), 9.5, 13, fc=cm(0.12 + 0.12 * i), ec='k', lw=0.3))
-ax.text(xl + 12.5, 68.5, '16×32×32\n密度差模型 m̂', ha='center', va='top', fontsize=5.6)
+ax.text(xl + 12.5, 68.5, '16×32×32\ndensity model m̂', ha='center', va='top', fontsize=5.6)
 # legend (lower right)
-items = [(C_DC, '3×3卷积+批归一化+ELU'), (C_DN, '2×2卷积下采样（步长2）'), (C_UP, '2×2转置卷积上采样'), (C_SK, '跳跃连接（复制后拼接）'), (C_OUT, '1×1卷积+批归一化+Softplus')]
+items = [(C_DC, '3×3 conv + BN + ELU'), (C_DN, '2×2 conv downsampling (stride 2)'), (C_UP, '2×2 transposed conv upsampling'), (C_SK, 'Skip connection (copy and concatenate)'), (C_OUT, '1×1 conv + BN + Softplus')]
 lx, ly = 118, 42
 for i, (c, t) in enumerate(items):
     yy = ly - i * 4.2; arr(lx, yy, lx + 5, yy, c, lw=2.6 if c == C_SK else 1.2, ms=6); ax.text(lx + 6.2, yy, t, va='center', fontsize=5.6)
-ax.text(lx, ly + 5, '方框上方为通道数，左侧为水平尺寸；\n下采样与上采样后使用概率0.2的Dropout', fontsize=5.3, color='#404040', va='bottom')
+ax.text(lx, ly + 5, 'Channel numbers above boxes, horizontal size at left.\nBN, batch normalization. Dropout (p = 0.2)\nafter downsampling and upsampling', fontsize=5.3, color='#404040', va='bottom')
 S.save(fig, 'fig04_unet')

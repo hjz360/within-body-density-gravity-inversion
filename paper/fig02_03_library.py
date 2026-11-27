@@ -26,7 +26,9 @@ for k, fam in enumerate(S.FAM):
     ax.set_xticks([]); ax.set_yticks([]); ax.set_zticks([])
     for a_ in (ax.xaxis, ax.yaxis, ax.zaxis):
         a_.pane.set_facecolor((0.965, 0.965, 0.955, 1)); a_.pane.set_edgecolor('#bdbdb8'); a_.line.set_linewidth(0.4)
-    ax.set_title(f'({chr(97 + k)}) {S.FAM_CN[fam]}（{ncomp}）', fontsize=6.8, pad=0, y=0.93)
+    nm = S.FAM_CN[fam]; i = nm.rfind(' ', 0, len(nm) // 2 + 6) if len(nm) > 20 else -1
+    nm = nm[:i] + '\n' + nm[i + 1:] if i > 0 else nm + '\n'
+    ax.set_title(f'({chr(97 + k)}) {nm} ({ncomp})', fontsize=6.6, pad=0, y=0.90, linespacing=1.0)
 fig.subplots_adjust(left=0.0, right=1.0, top=0.99, bottom=0.0, wspace=0.0, hspace=0.0)
 S.save(fig, 'fig02_geometry')
 
@@ -48,16 +50,16 @@ for k, law in enumerate(range(5)):
     b = ax[1, k]
     b.imshow(np.where(sup[kz], v[kz], np.nan)[y0:y1, x0:x1], cmap=S.DENS, vmin=vmin, vmax=vmax, interpolation='nearest', origin='lower',
              extent=[x0 * 50, x1 * 50, y0 * 50, y1 * 50], aspect='equal')
-    for q, yl in ((a, '深度/m'), (b, '北向/m')):
+    for q, yl in ((a, 'Depth (m)'), (b, 'North (m)')):
         q.tick_params(labelsize=5.8, length=1.8); q.set_xticks([x0 * 50 + 100, x0 * 50 + 550, x0 * 50 + 1000])
         if k == 0: q.set_ylabel(yl, fontsize=6.5)
-    a.set_xticklabels([]); b.set_xlabel('东向/m', fontsize=6.2, labelpad=1)
-    a.text(0.03, 0.06, f'北向{25 + 50 * jy} m', transform=a.transAxes, fontsize=5.6, color=S.GREY)
-    b.text(0.03, 0.04, f'深度{25 + 50 * kz} m', transform=b.transAxes, fontsize=5.6, color=S.GREY)
+    a.set_xticklabels([]); b.set_xlabel('East (m)', fontsize=6.2, labelpad=1)
+    a.text(0.03, 0.06, f'North {25 + 50 * jy} m', transform=a.transAxes, fontsize=5.6, color=S.GREY)
+    b.text(0.03, 0.04, f'Depth {25 + 50 * kz} m', transform=b.transAxes, fontsize=5.6, color=S.GREY)
     vals = v[sup]
-    b.text(0.5, -0.30, f'均值{vals.mean():.2f}，范围{vals.min():.2f}—{vals.max():.2f}', transform=b.transAxes, ha='center', va='top', fontsize=6.0)
+    b.text(0.5, -0.30, f'Mean {vals.mean():.2f}, range {vals.min():.2f}–{vals.max():.2f}', transform=b.transAxes, ha='center', va='top', fontsize=6.0)
 fig.subplots_adjust(left=0.065, right=0.905, top=0.93, bottom=0.17, wspace=0.28, hspace=0.12)
-cax = fig.add_axes([0.925, 0.2, 0.012, 0.7]); cb = fig.colorbar(im, cax=cax); cb.set_label('密度差 / (g/cm³)', fontsize=6.5)
+cax = fig.add_axes([0.925, 0.2, 0.012, 0.7]); cb = fig.colorbar(im, cax=cax); cb.set_label('Density contrast (g/cm³)', fontsize=6.5)
 cb.ax.tick_params(labelsize=6); cb.outline.set_linewidth(0.4)
 S.save(fig, 'fig03_rules')
 print('ok')

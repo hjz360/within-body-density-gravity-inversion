@@ -27,9 +27,9 @@ for c, stem in CASES:
         im = ax.imshow(noise[a][c, 0], cmap='jet', origin='lower', extent=S.EXT_XY, vmin=noise[a][c].min(), vmax=noise[a][c].max(), interpolation='nearest')
         ax.axhline(S.X[jy], color='k', ls=(0, (2, 1.5)), lw=0.6)
         ax.set_xticks([0, 800, 1600]); ax.set_yticks([0, 800, 1600]); ax.tick_params(labelsize=5.6, length=1.6)
-        ax.set_ylabel('北向/m', fontsize=6.2, labelpad=1)
-        if r == 2: ax.set_xlabel('东向/m', fontsize=6.2, labelpad=1)
-        ax.set_title(f'({chr(97 + 3 * r)}) 输入异常/mGal，噪声{int(a * 100)}%', fontsize=6.4, loc='left', pad=2)
+        ax.set_ylabel('North (m)', fontsize=6.2, labelpad=1)
+        if r == 2: ax.set_xlabel('East (m)', fontsize=6.2, labelpad=1)
+        ax.set_title(f'({chr(97 + 3 * r)}) Input anomaly (mGal), noise {int(a * 100)}%', fontsize=6.4, loc='left', pad=2)
         cax = ax.inset_axes([1.04, 0, 0.06, 1]); cb = fig.colorbar(im, cax=cax); cb.ax.tick_params(labelsize=5, length=1.2); cb.outline.set_linewidth(0.3)
         pass
         for j, arm in enumerate('CH'):
@@ -37,10 +37,10 @@ for c, stem in CASES:
             imd = ax.imshow(v[:, jy, :], cmap=CM, vmin=0, vmax=S.DENS_MAX, extent=S.EXT_XZ, aspect='equal', interpolation='nearest')
             ax.contour(S.X, S.Z, sup[:, jy, :].astype(float), levels=[0.5], colors='k', linewidths=0.55)
             m = met[(arm, str(a), c)]
-            ax.set_title(f"({chr(98 + 3 * r + j)}) {'均匀训练网络（C）' if arm == 'C' else '变密度训练网络（H）'}  RMSE {float(m['density_rmse']):.3f}  Dice {float(m['dice']):.2f}", fontsize=6.2, loc='left', pad=2)
+            ax.set_title(f"({chr(98 + 3 * r + j)}) {'C network' if arm == 'C' else 'H network'}  RMSE {float(m['density_rmse']):.3f}  Dice {float(m['dice']):.2f}", fontsize=6.2, loc='left', pad=2)
             ax.set_xticks([0, 400, 800, 1200, 1600]); ax.set_yticks([0, 400, 800]); ax.tick_params(labelsize=5.6, length=1.6)
-            ax.set_ylabel('深度/m', fontsize=6.2, labelpad=1)
-            if r == 2: ax.set_xlabel('东向/m', fontsize=6.2, labelpad=1)
+            ax.set_ylabel('Depth (m)', fontsize=6.2, labelpad=1)
+            if r == 2: ax.set_xlabel('East (m)', fontsize=6.2, labelpad=1)
     cax = fig.add_axes([0.42, 0.05, 0.36, 0.013])
-    cb = fig.colorbar(imd, cax=cax, orientation='horizontal', extend='max'); cb.set_label('密度差 / (g/cm³)', fontsize=6.3); cb.ax.tick_params(labelsize=5.6); cb.outline.set_linewidth(0.4)
+    cb = fig.colorbar(imd, cax=cax, orientation='horizontal', extend='max'); cb.set_label('Density contrast (g/cm³)', fontsize=6.3); cb.ax.tick_params(labelsize=5.6); cb.outline.set_linewidth(0.4)
     S.save(fig, stem); print(stem, [(k, round(float(met[(k[0], str(k[1]), c)]['density_rmse']), 3)) for k in pred])

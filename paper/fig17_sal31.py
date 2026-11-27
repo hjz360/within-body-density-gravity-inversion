@@ -14,20 +14,20 @@ dep = 25 + 50 * np.arange(16)
 BG = (2.5, 2.8)
 fig, axs = plt.subplots(1, 3, figsize=(S.FULL, 8.2 * S.CM), sharey=True, gridspec_kw=dict(width_ratios=[1, 1, 1]))
 def logpanel(a):
-    a.fill_betweenx(z, rho - BG[1], rho - BG[0], color='#bdbdb8', alpha=0.7, lw=0, label='SAL-31实测（背景2.5—2.8 g/cm³）')
+    a.fill_betweenx(z, rho - BG[1], rho - BG[0], color='#bdbdb8', alpha=0.7, lw=0, label='SAL-31 core (background 2.5–2.8 g/cm³)')
     lay = [(z0, rho[(z >= z0) & (z < z0 + 50)].mean()) for z0 in range(200, 450, 50)]
     for z0, m in lay: a.plot([m - 2.65] * 2, [z0, z0 + 50], color='k', lw=1.4)
-    a.plot([], [], color='k', lw=1.4, label='实测50 m平均（背景2.65）')
+    a.plot([], [], color='k', lw=1.4, label='Core 50 m mean (background 2.65)')
     a.axhspan(165, 420, color='#fde0dd', alpha=0.35, lw=0)
-for a, (nm, keys, col) in zip(axs, (('(a) 均匀训练网络（C）', ['C7', 'C8', 'C9'], S.C_COL), ('(b) 变密度训练网络（H）', ['H7', 'H8', 'H9'], S.H_COL), ('(c) 深度加权L2', ['L2'], S.L2_COL))):
+for a, (nm, keys, col) in zip(axs, (('(a) C network', ['C7', 'C8', 'C9'], S.C_COL), ('(b) H network', ['H7', 'H8', 'H9'], S.H_COL), ('(c) Depth-weighted L2', ['L2'], S.L2_COL))):
     logpanel(a)
     for i, k in enumerate(keys):
         v = np.repeat(P[k], 2); zz = np.repeat(np.arange(17) * 50, 2)[1:-1]
-        a.plot(v, zz, color=col, lw=1.1, ls=['-', '--', ':'][i], label=(f'种子{i + 1}' if len(keys) > 1 else 'L2'))
-    a.set_xlim(0, 2.4); a.set_ylim(500, 0); a.set_xlabel('密度差/(g/cm³)'); a.set_title(nm, fontsize=7.2, loc='left', pad=2)
+        a.plot(v, zz, color=col, lw=1.1, ls=['-', '--', ':'][i], label=(f'Seed {i + 1}' if len(keys) > 1 else 'L2'))
+    a.set_xlim(0, 2.4); a.set_ylim(500, 0); a.set_xlabel('Density contrast (g/cm³)'); a.set_title(nm, fontsize=7.2, loc='left', pad=2)
     a.legend(fontsize=5.2, loc='upper right', handlelength=1.8, borderaxespad=0.3)
-axs[0].set_ylabel('深度/m')
-axs[0].text(2.3, 470, '块状硫化物\n（165—420 m）', fontsize=5.8, ha='right', va='bottom', color='#b2182b')
+axs[0].set_ylabel('Depth (m)')
+axs[0].text(2.3, 470, 'Massive sulfide\n(165–420 m)', fontsize=5.8, ha='right', va='bottom', color='#b2182b')
 fig.tight_layout(w_pad=0.5)
 S.save(fig, 'fig17_sal31')
 L = {z0: rho[(z >= z0) & (z < z0 + 50)].mean() for z0 in range(150, 450, 50)}

@@ -1,5 +1,5 @@
 """Common figure style of the manuscript figures.
-Chinese text: Noto Serif CJK SC (宋体-like); Latin letters and digits: Liberation Serif (Times-metric).
+Text: Liberation Serif (Times-metric); Times New Roman on Windows.
 Full width 16 cm, half width 8 cm; 7.5 pt text, 8 pt panel labels; no in-figure titles (titles live in captions)."""
 import numpy as np
 import matplotlib
@@ -18,7 +18,7 @@ _have = {f.name for f in fm.fontManager.ttflist}
 _fam = [f for f in ('Liberation Serif', 'Noto Serif CJK SC', 'Times New Roman', 'SimSun') if f in _have] or ['serif']
 plt.rcParams.update({
     'font.family': _fam, 'font.size': 7.5, 'axes.unicode_minus': False,
-    'mathtext.fontset': 'custom', 'mathtext.rm': 'Noto Serif CJK SC', 'mathtext.it': 'Liberation Serif:italic', 'mathtext.bf': 'Noto Serif CJK SC:bold', 'mathtext.cal': 'Liberation Serif', 'mathtext.sf': 'Noto Serif CJK SC', 'mathtext.tt': 'Liberation Serif',
+    'mathtext.fontset': 'custom', 'mathtext.rm': 'Liberation Serif', 'mathtext.it': 'Liberation Serif:italic', 'mathtext.bf': 'Liberation Serif:bold', 'mathtext.cal': 'Liberation Serif', 'mathtext.sf': 'Liberation Serif', 'mathtext.tt': 'Liberation Serif',
     'axes.linewidth': 0.6, 'xtick.major.width': 0.5, 'ytick.major.width': 0.5, 'xtick.major.size': 2.5, 'ytick.major.size': 2.5,
     'xtick.labelsize': 7, 'ytick.labelsize': 7, 'axes.labelsize': 7.5, 'legend.fontsize': 7, 'legend.frameon': False,
     'axes.titlesize': 7.5, 'savefig.dpi': 400, 'figure.dpi': 100, 'axes.spines.top': True, 'axes.spines.right': True,
@@ -39,13 +39,13 @@ DIV = LinearSegmentedColormap.from_list('div', ['#1c5cab', '#86b6ef', '#f4f3ef',
 GRAV = plt.get_cmap('jet')
 X = 25 + 50 * np.arange(32); Z = 25 + 50 * np.arange(16)          # cell centres (m)
 EXT_XZ = [0, 1600, 800, 0]; EXT_XY = [0, 1600, 0, 1600]
-NAME_H = '变密度训练（H）'; NAME_C = '均匀对照（C）'
+NAME_H = 'H network'; NAME_C = 'C network'
 FAM = ['separated_pair', 'separated_triple', 'stacked', 'lens', 'lens_keel', 'faulted_layers', 'compact_single',
        'continuous_slab', 'curved_sheet', 'connected_branches']
-FAM_CN = dict(zip(FAM, ['分离双体', '分离三体', '上下叠置体', '变厚度透镜体', '主体与倾斜延伸体', '断错分段层状体', '不规则紧凑单体',
-                        '连续倾斜板', '弯曲连续层', '连通多叶体']))
+FAM_CN = dict(zip(FAM, ['Separated double bodies', 'Separated triple bodies', 'Vertically stacked bodies', 'Variable-thickness lens', 'Main body with inclined extension', 'Faulted segmented layers', 'Irregular compact single body',
+                        'Continuous inclined sheet', 'Curved continuous layer', 'Connected multi-lobe body']))
 NEW_ID = lambda fam, law, rep=0: fam + 10 * law + 50 * rep     # new-group case id layout (family index, law, replicate)
-LAW_CN = {0: '均匀', 1: '方向渐变', 2: '单峰', 3: '双峰', 4: '平滑随机'}
+LAW_CN = {0: 'Uniform', 1: 'Directional gradient', 2: 'Single peak', 3: 'Double peak', 4: 'Smooth random'}
 
 
 def panel(ax, s, x=-0.02, y=1.02, **kw):

@@ -7,8 +7,8 @@ import common as K
 import figstyle as S
 import matplotlib.pyplot as plt
 M = json.load(open(K.out('tables', 'paired_metrics.json')))   # run 02_paired_tables.py first
-rows = [('resp', '变化响应误差'), ('abs', '体内起伏误差'), ('pseudo', '均匀目标虚假起伏')]
-cols = [('old', '留出集（400个）'), ('new', '测试集（200个）')]
+rows = [('resp', 'Response error'), ('abs', 'Within-body fluctuation error'), ('pseudo', 'Spurious fluctuation')]
+cols = [('old', 'Held-out set (400)'), ('new', 'Test set (200)')]
 seeds = ['20260727', '20260728', '20260729']
 fig, ax = plt.subplots(3, 2, figsize=(S.FULL, 10.2 * S.CM), sharex=True)
 lab = iter('abcdef')
@@ -25,13 +25,13 @@ for r, (q, qn) in enumerate(rows):
             a.errorbar(k, v['diff'], yerr=[[v['diff'] - v['lo']], [v['hi'] - v['diff']]], fmt='o', ms=3.6, color=S.INK,
                        ecolor=S.INK, elinewidth=0.8, capsize=2.2, capthick=0.8, zorder=3)
         a.set_ylim(*ylim); a.set_xlim(-0.6, 2.6)
-        a.set_xticks([0, 1, 2]); a.set_xticklabels(['种子1', '种子2', '种子3'])
+        a.set_xticks([0, 1, 2]); a.set_xticklabels(['Seed 1', 'Seed 2', 'Seed 3'])
         from matplotlib.ticker import MaxNLocator
         a.yaxis.set_major_locator(MaxNLocator(nbins=4, steps=[1, 2, 5, 10])); a.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x:.3f}'.replace('-', '−')))
         n = M[f'{cs}_{seeds[0]}_{q}']['n']
         a.text(0.015, 0.05 if q == 'resp' else 0.95, f'n={n}', transform=a.transAxes, ha='left', va='bottom' if q == 'resp' else 'top', fontsize=6.5, color=S.GREY)
-        a.text(0.985, 0.95, 'H误差较低', transform=a.transAxes, ha='right', va='top', fontsize=6.3, color=S.H_COL)
-        a.text(0.985, 0.05, 'C误差较低', transform=a.transAxes, ha='right', va='bottom', fontsize=6.3, color=S.C_COL)
+        a.text(0.985, 0.95, 'Lower error for H', transform=a.transAxes, ha='right', va='top', fontsize=6.3, color=S.H_COL)
+        a.text(0.985, 0.05, 'Lower error for C', transform=a.transAxes, ha='right', va='bottom', fontsize=6.3, color=S.C_COL)
         S.panel(a, f'({next(lab)})', x=0.0, y=1.02)
         if r == 0: a.set_title(cn, fontsize=7.5, pad=10)
         if c == 0: a.set_ylabel(f'{qn}\nC−H / (g/cm³)')
